@@ -1,0 +1,68 @@
+package com.alquilatucoche.usuarios.aplicacion.servicio;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
+import com.alquilatucoche.usuarios.dominio.entidad.Usuario;
+import com.alquilatucoche.usuarios.dominio.servicio.ServicioUsuario;
+import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionAltaUsuario;
+import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionModificaionUsuario;
+import com.alquilatucoche.usuarios.infrastructura.repositorio.RepositorioUsuario;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class ImplementacionServicioUsuario implements ServicioUsuario{
+	
+	private final RepositorioUsuario repositorio;
+
+	@Override
+	public UsuarioDTO altaUsuario(PeticionAltaUsuario peticion) {
+		Usuario usuario = repositorio.save(Usuario.builder()
+				.nombre(peticion.getNombre())
+				.apellidos(peticion.getApellidos())
+				.direccion(peticion.getDireccion())	
+				.provincia(peticion.getProvincia())
+				.numeroDeCuenta(peticion.getNumeroDeCuenta())
+				.email(peticion.getEmail())
+				.password(peticion.getPassword())
+				.numeroTelefono(peticion.getNumeroTelefono())
+				.propietario(false)
+				.stripeId(null)
+				.build()
+		);
+		return null;
+	}
+
+	@Override
+	public String bajaUsuario(Long id) {
+		try {
+			repositorio.deleteById(id);
+			return "Usuario dado de baja con éxito";
+		}catch(Exception e) {
+			return e.getMessage();
+		}
+	}
+
+	@Override
+	public UsuarioDTO modificacionUsuario(PeticionModificaionUsuario peticion) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UsuarioDTO busquedaUsuario(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<UsuarioDTO> recuperacionListaUsuarios() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

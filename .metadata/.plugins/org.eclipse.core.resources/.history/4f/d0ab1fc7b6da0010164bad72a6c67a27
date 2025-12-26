@@ -1,0 +1,39 @@
+package com.alquilatucoche.usuarios.aplicacion.respuesta;
+
+import jakarta.persistence.Lob;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class UsuarioDTO {
+	
+	private String nombre;
+	
+	private String apellidos;
+	
+	private String genero;
+	
+	private String direccion;
+	
+	private String provincia;
+	
+	private String numeroDeCuenta;
+	
+	private String email;
+	
+	private String numeroTelefono;
+	
+	private Boolean propietario;
+	
+	private String stripeId;
+	
+	@Lob
+	private byte[] imagenPerfil;
+	
+
+}

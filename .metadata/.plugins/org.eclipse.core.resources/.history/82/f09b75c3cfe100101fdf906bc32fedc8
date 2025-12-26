@@ -1,0 +1,5 @@
+package com.alquilatucoche.vehiculos.aplicacion.respuesta.excepciones;
+
+public class VehiculoNoEncontradoExcepcion {
+
+}

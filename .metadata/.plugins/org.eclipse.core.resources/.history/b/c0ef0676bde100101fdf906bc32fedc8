@@ -1,0 +1,15 @@
+package com.alquilatucoche.vehiculos.dominio.servicio;
+
+import java.util.List;
+
+import com.alquilatucoche.vehiculos.infraestructura.peticiones.PeticionSubidaImagen;
+
+public interface ImagenVehiculoServicio {
+	
+	String subirImagen(PeticionSubidaImagen peticion);
+	
+	String eliminarImagen(Long id);
+	
+	List<byte[]> obtenerImagenesVehiculo(Long idPropietario);
+
+}

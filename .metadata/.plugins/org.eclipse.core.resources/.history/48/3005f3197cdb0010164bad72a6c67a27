@@ -1,0 +1,5 @@
+package com.alquilatucoche.usuarios.infrastructura.seguridad;
+
+public class CustomUserService {
+
+}

@@ -1,0 +1,13 @@
+package com.alquilatucoche.vehiculos.infraestructura.peticiones;
+
+import com.alquilatucoche.vehiculos.dominio.entidad.TipoVehiculo;
+
+public class PeticionAltaVehiculo {
+	
+	private TipoVehiculo tipo;
+	
+	private String provincia;
+	
+	private String matricula;
+
+}

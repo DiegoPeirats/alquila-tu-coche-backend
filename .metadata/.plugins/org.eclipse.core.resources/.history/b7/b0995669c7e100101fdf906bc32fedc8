@@ -1,0 +1,23 @@
+package com.alquilatucoche.vehiculos.aplicacion.utiles;
+
+import org.mapstruct.BeanMapping;
+import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
+import org.mapstruct.NullValuePropertyMappingStrategy;
+
+import com.alquilatucoche.vehiculos.aplicacion.respuesta.VehiculoDTO;
+import com.alquilatucoche.vehiculos.dominio.entidad.Vehiculo;
+import com.alquilatucoche.vehiculos.infraestructura.peticiones.PeticionAltaVehiculo;
+import com.alquilatucoche.vehiculos.infraestructura.peticiones.PeticionModificacionVehiculo;
+
+@Mapper(componentModel = "spring")
+public interface VehiculoMapper {
+	
+	VehiculoDTO toDto(Vehiculo vehiculo);
+	
+	@BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
+	void actualizarVehiculoDesdePeticion(PeticionModificacionVehiculo peticion, @MappingTarget Vehiculo vehiculo);
+	
+	Vehiculo crearVehiculoDesdePeticion(PeticionAltaVehiculo peticion);
+
+}

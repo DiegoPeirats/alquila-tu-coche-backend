@@ -1,0 +1,21 @@
+package com.alquilatucoche.usuarios.dominio.servicio;
+
+import java.util.List;
+
+import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
+import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionAltaUsuario;
+import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionModificacionUsuario;
+
+public interface ServicioUsuario {
+	
+	UsuarioDTO altaUsuario(PeticionAltaUsuario peticion);
+	
+	String bajaUsuario(Long id);
+	
+	UsuarioDTO modificacionUsuario(PeticionModificacionUsuario peticion);
+	
+	UsuarioDTO busquedaUsuario(Long id);
+	
+	List<UsuarioDTO> recuperacionListaUsuarios();
+
+}

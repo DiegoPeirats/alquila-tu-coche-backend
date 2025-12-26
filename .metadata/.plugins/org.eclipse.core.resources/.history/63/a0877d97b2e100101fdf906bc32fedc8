@@ -1,0 +1,5 @@
+package com.alquilatucoche.vehiculos.dominio;
+
+public class Vehiculo {
+
+}

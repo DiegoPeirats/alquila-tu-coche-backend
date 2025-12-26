@@ -1,0 +1,5 @@
+package com.alquilatucoche.usuarios.dominio.entidad;
+
+public enum Role {
+
+}

@@ -1,0 +1,5 @@
+package com.alquilatucoche.usuarios.infrastructura.controlador;
+
+public class ControladorUsuarios {
+
+}

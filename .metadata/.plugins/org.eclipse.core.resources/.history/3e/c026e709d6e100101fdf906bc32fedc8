@@ -1,0 +1,5 @@
+package com.alquilatucoche.vehiculos.infraestructura.controlador;
+
+public class ControladorVehiculos {
+
+}

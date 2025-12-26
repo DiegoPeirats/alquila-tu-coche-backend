@@ -1,0 +1,5 @@
+package com.alquilatucoche.vehiculos.aplicacion.utiles;
+
+public interface VehiculoMapper {
+
+}

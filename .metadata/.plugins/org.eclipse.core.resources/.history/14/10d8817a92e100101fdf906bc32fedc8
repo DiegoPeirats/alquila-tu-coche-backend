@@ -1,0 +1,31 @@
+spring.application.name=servicio-usuarios
+
+spring.datasource.url=jdbc:mariadb://localhost:3306/alquilatucoche
+spring.datasource.username=root
+spring.datasource.password=josemourinho
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+# ===== JPA / HIBERNATE =====
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
+
+# ===== POOL DE CONEXIONES (opcional pero recomendado) =====
+spring.datasource.initialization-mode=always
+spring.datasource.test-while-idle=true
+spring.datasource.validation-query=SELECT 1
+
+# ===== PUERTO DEL SERVIDOR =====
+server.port=8080
+
+# ===== SEGURIDAD =====
+app.jwt-secret: 5h8jRz9X+Z1lQXJcQWkF2sL5k9VvJd/8ZpSgN6o3w4U=
+app.jwt-expiration: 86400000
+
+# ===== EMAIL =====
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=manuemanuemanue123456789@gmail.com
+spring.mail.password=manuemanue123
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
