@@ -1,0 +1,84 @@
+package com.alquilatucoche.transaccion.aplicacion.servicio;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+
+import com.alquilatucoche.transaccion.aplicacion.respuesta.TransaccionDTO;
+import com.alquilatucoche.transaccion.aplicacion.utiles.TransaccionMapper;
+import com.alquilatucoche.transaccion.dominio.entidad.Transaccion;
+import com.alquilatucoche.transaccion.dominio.servicio.ServicioTransaccion;
+import com.alquilatucoche.transaccion.infraestructura.peticiones.FiltroBusquedaTransacciones;
+import com.alquilatucoche.transaccion.infraestructura.peticiones.PeticionCreacionTransaccion;
+import com.alquilatucoche.transaccion.infraestructura.repositorio.RepositorioTransaccion;
+import com.alquilatucoche.vehiculos.aplicacion.respuesta.VehiculoDTO;
+import com.alquilatucoche.vehiculos.dominio.servicio.ServicioVehiculo;
+import com.alquilatucoche.oferta.aplicacion.respuesta.OfertaDTO;
+import com.alquilatucoche.oferta.dominio.servicio.ServicioOferta;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class ImplementacionServicioTransaccion implements ServicioTransaccion{
+	
+	private RepositorioTransaccion repositorio;
+	
+	private TransaccionMapper mapper;
+	
+	private ServicioOferta servicioOfertas;
+	
+	private ServicioVehiculo servicioVehiculos;
+	
+	
+
+	@Override
+	public TransaccionDTO crearTransaccion(PeticionCreacionTransaccion peticion) {
+
+		Transaccion transaccion = mapper.crearTransaccionDesdePeticion(peticion);
+		
+		repositorio.save(transaccion);
+		
+		return mapper.toDto(transaccion);
+	}
+
+	@Override
+	public String eliminarTransaccion(Long id) {
+
+		repositorio.deleteById(id);
+		
+		return "Transaccion eliminada con éxito";
+	}
+
+	@Override
+	public List<TransaccionDTO> obtenerHistorialTransacciones(FiltroBusquedaTransacciones filtro) {
+		
+		return repositorio.findAll().stream()
+				.filter(transaccion -> {
+					
+					boolean idClienteCorrecto = true;
+					
+					if (filtro.getIdCliente() != null) idClienteCorrecto = transaccion.getIdUsuario().equals(filtro.getIdCliente());
+					
+					OfertaDTO oferta = servicioOfertas.obtenerOferta(transaccion.getIdOferta());
+					
+					boolean idVehiculoCorrecto = true;
+					
+					if (filtro.getIdVehiculo() != null ) idVehiculoCorrecto = filtro.getIdPropietario().equals(oferta.getIdVehiculo());
+					
+					VehiculoDTO vehiculo = servicioVehiculos.encontrarVehiculo(oferta.getIdVehiculo());
+					
+					boolean idPropietarioCorrecto = true;
+					
+					if (filtro.getIdPropietario() != null) idPropietarioCorrecto = filtro.getIdPropietario().equals(vehiculo.getIdPropietario());
+					
+					return idClienteCorrecto && idVehiculoCorrecto && idPropietarioCorrecto;
+				})
+				.map(transaccion -> mapper.toDto(transaccion))
+				.collect(Collectors.toList());
+	}
+	
+	
+
+}

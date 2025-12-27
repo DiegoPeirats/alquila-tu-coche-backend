@@ -21,4 +21,6 @@ public interface ServicioOferta {
 	
 	ResultadoContratacion contratarOferta(PeticionContratacionOferta peticion);
 
+	OfertaDTO obtenerOferta(Long id);
+
 }

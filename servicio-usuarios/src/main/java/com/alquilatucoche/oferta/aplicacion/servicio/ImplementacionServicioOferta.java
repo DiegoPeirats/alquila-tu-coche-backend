@@ -101,5 +101,13 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	@Override
+	public OfertaDTO obtenerOferta(Long id) {
+		
+		return repositorio.findById(id)
+				.map(oferta -> mapper.toDto(oferta))
+				.orElseThrow(() -> new OfertaNoEncontradaExcepcion());
+	}
 
 }

@@ -1,0 +1,5 @@
+package com.alquilatucoche.transaccion.infraestructura.repositorio;
+
+public interface RepositorioTransaccion {
+
+}

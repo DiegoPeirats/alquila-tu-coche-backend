@@ -1,0 +1,5 @@
+package com.alquilatucoche.transaccion.dominio.servicio;
+
+public interface ServicioTransaccion {
+
+}

@@ -1,0 +1,5 @@
+package com.alquilatucoche.transaccion.aplicacion.respuesta;
+
+public class TransaccionDTO {
+
+}
