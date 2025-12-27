@@ -1,0 +1,5 @@
+package com.alquilatucoche.oferta.domain.entidad;
+
+public class Oferta {
+
+}

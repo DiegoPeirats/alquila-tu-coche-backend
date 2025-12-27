@@ -9,6 +9,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import com.alquilatucoche.oferta.aplicacion.respuesta.excepcion.OfertaNoEncontradaExcepcion;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.excepciones.UsuarioNoEncontradoExcepcion;
 import com.alquilatucoche.vehiculos.aplicacion.respuesta.excepciones.VehiculoNoEncontradoExcepcion;
 
@@ -27,6 +28,11 @@ public class ManejadorGlobalDeExcepciones {
 	
 	@ExceptionHandler(VehiculoNoEncontradoExcepcion.class)
 	public ResponseEntity<String> vehiculoNotFound(VehiculoNoEncontradoExcepcion ex){
+		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
+	}
+	
+	@ExceptionHandler(VehiculoNoEncontradoExcepcion.class)
+	public ResponseEntity<String> ofertaNotFound(OfertaNoEncontradaExcepcion ex){
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
 	}
 	

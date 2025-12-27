@@ -1,0 +1,5 @@
+package com.alquilatucoche.oferta.aplicacion.respuesta.excepcion;
+
+public class OfertaNoEncontradaExcepcion extends RuntimeException{
+
+}

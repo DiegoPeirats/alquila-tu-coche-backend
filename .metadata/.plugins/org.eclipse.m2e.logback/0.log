@@ -1599,3 +1599,208 @@
 2025-12-26 19:19:46,107 [Worker-372: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-12-26 19:19:46,114 [Worker-372: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-12-26 19:19:46,116 [Worker-372: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-26 19:54:18,946 [Worker-379: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:55:21,102 [Worker-381: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:55:35,218 [Worker-381: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:55:43,905 [Worker-381: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:56:07,030 [Worker-379: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:56:19,835 [Worker-381: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:56:34,983 [Worker-381: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:56:42,983 [Worker-378: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:56:55,006 [Worker-381: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:57:39,009 [Worker-382: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:57:53,086 [Worker-378: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:58:01,993 [Worker-380: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 19:58:16,218 [Worker-383: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 20:00:06,020 [Worker-378: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 20:00:06,046 [Worker-378: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-26 20:00:06,056 [Worker-378: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-26 20:00:06,064 [Worker-378: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-26 20:02:29,307 [Worker-382: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 20:02:29,317 [Worker-382: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-26 20:02:29,323 [Worker-382: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-26 20:02:29,325 [Worker-382: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-26 20:03:03,845 [Worker-382: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-26 20:03:03,851 [Worker-382: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-26 20:03:03,856 [Worker-382: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-26 20:03:03,859 [Worker-382: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 10:53:35,227 [Worker-390: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 10:53:35,232 [Worker-390: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 10:53:35,239 [Worker-390: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 10:53:35,246 [Worker-390: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:22:12,075 [Worker-396: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:22:12,079 [Worker-396: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:22:12,090 [Worker-396: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:22:12,094 [Worker-396: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:22:27,244 [Worker-398: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:35:39,411 [Worker-405: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:35:39,424 [Worker-405: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:35:39,434 [Worker-405: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:35:39,440 [Worker-405: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:36:09,242 [Worker-404: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:36:09,251 [Worker-404: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:36:09,258 [Worker-404: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:36:09,261 [Worker-404: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:36:28,764 [Worker-407: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:36:28,773 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:36:28,785 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:36:28,791 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:36:52,437 [Worker-405: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:36:52,445 [Worker-405: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:36:52,453 [Worker-405: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:36:52,457 [Worker-405: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:37:12,209 [Worker-407: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:37:12,216 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:37:12,221 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:37:12,225 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:42:55,735 [Worker-408: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:42:55,744 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:42:55,752 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:42:55,755 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:45:25,179 [Worker-406: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:45:25,189 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:45:25,196 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:45:25,201 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:45:43,322 [Worker-408: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:45:43,330 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:45:43,339 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:45:43,344 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:46:11,551 [Worker-406: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:46:11,562 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:46:11,571 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:46:11,576 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:46:18,829 [Worker-411: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:46:18,834 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:46:18,841 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:46:18,847 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:47:49,577 [Worker-401: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:48:12,108 [Worker-411: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:48:22,715 [Worker-406: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:48:36,776 [Worker-406: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:48:50,448 [Worker-409: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:48:50,456 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:48:50,463 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:48:50,468 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:49:00,028 [Worker-412: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:49:00,036 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:49:00,041 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:49:00,044 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:49:13,526 [Worker-409: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:49:13,537 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:49:13,542 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:49:13,547 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:49:29,549 [Worker-408: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:49:29,558 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:49:29,563 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:49:29,568 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:49:44,480 [Worker-401: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:49:44,490 [Worker-401: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:49:44,495 [Worker-401: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:49:44,499 [Worker-401: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:49:59,209 [Worker-408: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:49:59,214 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:49:59,219 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:49:59,223 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:50:10,478 [Worker-409: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:50:10,482 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:50:10,485 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:50:10,489 [Worker-409: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:50:23,840 [Worker-406: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:50:23,846 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:50:23,851 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:50:23,856 [Worker-406: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 11:50:40,069 [Worker-411: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 11:50:40,075 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 11:50:40,080 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 11:50:40,084 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 12:04:31,450 [Worker-416: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 12:04:31,455 [Worker-416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 12:04:31,466 [Worker-416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 12:04:31,469 [Worker-416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 12:05:27,072 [Worker-412: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 12:05:27,081 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 12:05:27,089 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 12:05:27,093 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 12:45:58,613 [Worker-430: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 12:45:58,648 [Worker-430: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 12:45:58,670 [Worker-430: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 12:45:58,695 [Worker-430: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 12:46:42,312 [Worker-431: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 12:46:42,328 [Worker-431: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 12:46:42,338 [Worker-431: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 12:46:42,357 [Worker-431: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 12:46:49,949 [Worker-429: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 12:46:49,959 [Worker-429: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 12:46:49,974 [Worker-429: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 12:46:49,983 [Worker-429: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 13:03:48,030 [Worker-436: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 13:03:48,051 [Worker-436: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 13:03:48,076 [Worker-436: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 13:03:48,090 [Worker-436: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 13:06:18,050 [Worker-438: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 13:06:18,057 [Worker-438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 13:06:18,061 [Worker-438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 13:06:18,065 [Worker-438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 18:47:49,112 [Worker-452: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 18:48:24,152 [Worker-454: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 18:48:24,171 [Worker-454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 18:48:24,183 [Worker-454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 18:48:24,188 [Worker-454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 18:48:50,773 [main] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 18:48:50,782 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 18:48:50,788 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 18:48:50,792 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 18:49:00,215 [main] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 18:49:00,221 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 18:49:00,227 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 18:49:00,232 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 18:49:29,650 [Worker-450: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 18:49:29,660 [Worker-450: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 18:49:29,670 [Worker-450: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 18:49:29,681 [Worker-450: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 18:53:02,556 [Worker-450: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 18:53:02,566 [Worker-450: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 18:53:02,577 [Worker-450: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 18:53:02,582 [Worker-450: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 20:09:13,339 [Worker-469: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 20:09:13,358 [Worker-469: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 20:09:13,366 [Worker-469: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 20:09:13,372 [Worker-469: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 20:10:34,149 [Worker-473: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 20:10:34,158 [Worker-473: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 20:10:34,166 [Worker-473: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 20:10:34,170 [Worker-473: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 21:01:51,336 [Worker-488: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:01:51,353 [Worker-488: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 21:01:51,361 [Worker-488: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 21:01:51,366 [Worker-488: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 21:01:54,480 [Worker-487: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:01:54,488 [Worker-487: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 21:01:54,496 [Worker-487: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 21:01:54,501 [Worker-487: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 21:05:47,705 [Worker-488: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:05:47,713 [Worker-488: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 21:05:47,722 [Worker-488: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 21:05:47,728 [Worker-488: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 21:06:16,200 [Worker-491: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:06:19,509 [Worker-491: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:17:41,884 [Worker-495: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:18:45,942 [Worker-495: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:18:57,400 [Worker-496: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:19:13,995 [Worker-495: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:19:30,428 [Worker-495: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:19:40,061 [Worker-494: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:19:50,279 [Worker-496: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:20:03,448 [Worker-495: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:20:18,154 [Worker-497: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:20:29,884 [Worker-497: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:20:39,817 [Worker-486: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:20:58,137 [Worker-497: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:21:35,149 [Worker-497: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:21:35,158 [Worker-497: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 21:21:35,171 [Worker-497: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 21:21:35,176 [Worker-497: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-27 21:25:28,659 [Worker-498: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-27 21:25:28,673 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-27 21:25:28,680 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-27 21:25:28,685 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources

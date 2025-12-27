@@ -19,5 +19,7 @@ public interface ServicioVehiculo {
 	VehiculoDTO eliminarImagen(Long idVehiculo, Long idImagen);
 	
 	List<VehiculoDTO> obtenerVehiculosPropietario(Long idPropietario);
+	
+	VehiculoDTO encontrarVehiculo(Long id);
 
 }

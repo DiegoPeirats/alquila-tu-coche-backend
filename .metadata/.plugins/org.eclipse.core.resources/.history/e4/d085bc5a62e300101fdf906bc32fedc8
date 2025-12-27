@@ -1,0 +1,5 @@
+package com.alquilatucoche.transaccion.dominio.entidad;
+
+public class Transaccion {
+
+}

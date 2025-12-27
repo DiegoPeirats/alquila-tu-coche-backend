@@ -91,4 +91,11 @@ public class ImplementacionServicioVehiculo implements ServicioVehiculo{
 				.collect(Collectors.toList());
 	}
 
+	@Override
+	public VehiculoDTO encontrarVehiculo(Long id) {
+		Vehiculo vehiculo = repositorio.findById(id)
+				.orElseThrow(() -> new VehiculoNoEncontradoExcepcion());
+		return mapper.toDto(vehiculo);
+	}
+
 }

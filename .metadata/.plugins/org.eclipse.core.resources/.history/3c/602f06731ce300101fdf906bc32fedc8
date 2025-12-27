@@ -1,0 +1,5 @@
+package com.alquilatucoche.oferta.aplicacion.utiles;
+
+public interface OfertaMapper {
+
+}

@@ -45,6 +45,7 @@ public class Vehiculo {
 	
 	@OneToMany(mappedBy = "vehiculo", cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<ImagenVehiculo> imagenes;
+	
 	@CreationTimestamp
 	private LocalDateTime fechaCreacion;
 	
