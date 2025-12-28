@@ -13,5 +13,7 @@ public interface ServicioTransaccion {
 	String eliminarTransaccion(Long id);
 	
 	List<TransaccionDTO> obtenerHistorialTransacciones(FiltroBusquedaTransacciones filtro);
+	
+	List<Long> obtenerIdOfertasCaducadas();
 
 }

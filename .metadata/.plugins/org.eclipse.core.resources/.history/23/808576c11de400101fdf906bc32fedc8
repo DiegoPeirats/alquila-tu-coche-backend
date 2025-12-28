@@ -1,0 +1,15 @@
+package com.alquilatucoche.oferta.infraestructura.repositorio;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.alquilatucoche.oferta.dominio.entidad.EstadoOferta;
+import com.alquilatucoche.oferta.dominio.entidad.Oferta;
+
+
+public interface RepositorioOfertas extends JpaRepository<Oferta, Long>{
+	
+	List<Oferta> findAllByEstado(EstadoOferta estado);
+
+}

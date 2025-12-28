@@ -1,5 +1,7 @@
 package com.alquilatucoche.transaccion.aplicacion.servicio;
 
+import java.time.LocalDateTime;
+import java.time.chrono.ChronoLocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -73,12 +75,27 @@ public class ImplementacionServicioTransaccion implements ServicioTransaccion{
 					
 					if (filtro.getIdPropietario() != null) idPropietarioCorrecto = filtro.getIdPropietario().equals(vehiculo.getIdPropietario());
 					
-					return idClienteCorrecto && idVehiculoCorrecto && idPropietarioCorrecto;
+					ChronoLocalDateTime<?> fechaHora = filtro.getDesdeCuando().atStartOfDay(); 
+					
+					boolean fechaCorrecta = true;
+					
+					if (filtro.getDesdeCuando() != null) fechaCorrecta = transaccion.getFechaCreacion().isAfter(fechaHora);
+					
+					return idClienteCorrecto && idVehiculoCorrecto && idPropietarioCorrecto && fechaCorrecta;
 				})
 				.map(transaccion -> mapper.toDto(transaccion))
 				.collect(Collectors.toList());
 	}
-	
-	
 
+	@Override
+	public List<Long> obtenerIdOfertasCaducadas() {
+		LocalDateTime fechaActual = LocalDateTime.now();
+		
+		List<Transaccion> vencidas = repositorio.findContratosVencidos(fechaActual);
+		
+		return vencidas.stream()
+				.map(Transaccion::getIdOferta)
+				.collect(Collectors.toList());
+	}
+	
 }

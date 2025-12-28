@@ -6,14 +6,12 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import com.alquilatucoche.oferta.aplicacion.respuesta.OfertaDTO;
-import com.alquilatucoche.oferta.aplicacion.respuesta.ResultadoContratacion;
 import com.alquilatucoche.oferta.aplicacion.respuesta.excepcion.OfertaNoEncontradaExcepcion;
 import com.alquilatucoche.oferta.aplicacion.utiles.OfertaMapper;
 import com.alquilatucoche.oferta.dominio.entidad.EstadoOferta;
 import com.alquilatucoche.oferta.dominio.entidad.Oferta;
 import com.alquilatucoche.oferta.dominio.servicio.ServicioOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.FiltroBusquedaOfertas;
-import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionContratacionOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionCreacionOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionModificarOferta;
 import com.alquilatucoche.oferta.infraestructura.repositorio.RepositorioOfertas;
@@ -55,8 +53,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 	@Override
 	public OfertaDTO modificarOferta(PeticionModificarOferta peticion) {
 		
-		Oferta oferta = repositorio.findById(peticion.getId())
-				.orElseThrow(() -> new OfertaNoEncontradaExcepcion());
+		Oferta oferta = encontrarOferta(peticion.getId());
 		
 		mapper.actualizarOfertaDesdePeticion(peticion, oferta);
 		
@@ -95,12 +92,6 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 				.map(oferta -> mapper.toDto(oferta))
 				.collect(Collectors.toList());
 	}
-
-	@Override
-	public ResultadoContratacion contratarOferta(PeticionContratacionOferta peticion) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 	@Override
 	public OfertaDTO obtenerOferta(Long id) {
@@ -108,6 +99,36 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 		return repositorio.findById(id)
 				.map(oferta -> mapper.toDto(oferta))
 				.orElseThrow(() -> new OfertaNoEncontradaExcepcion());
+	}
+
+	@Override
+	public Double obtenerPrecioPorContratacion(Long idOferta, Integer diasAContratar) {
+		
+		Oferta oferta = encontrarOferta(idOferta);
+		
+		return oferta.getPrecioPorDia() * diasAContratar;
+	}
+
+	@Override
+	public void establecerOfertaContratada(Long idOferta) {
+		
+		Oferta oferta = encontrarOferta(idOferta);
+		
+		oferta.setEstado(EstadoOferta.CONTRATADA);
+		
+		repositorio.save(oferta);
+		
+	}
+	
+	private Oferta encontrarOferta(Long id) {
+		return repositorio.findById(id)
+				.orElseThrow(() -> new OfertaNoEncontradaExcepcion());
+	}
+
+	@Override
+	public void liberarOfertas(List<Long> ids) {
+		repositorio.liberarOfertas(ids);
+		
 	}
 
 }

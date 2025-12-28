@@ -1,5 +1,7 @@
 package com.alquilatucoche.transaccion.infraestructura.peticiones;
 
+import java.time.LocalDate;
+
 import lombok.Getter;
 
 @Getter
@@ -10,5 +12,7 @@ public class FiltroBusquedaTransacciones {
 	private Long idCliente;
 	
 	private Long idVehiculo;
+	
+	private LocalDate desdeCuando;
 
 }
