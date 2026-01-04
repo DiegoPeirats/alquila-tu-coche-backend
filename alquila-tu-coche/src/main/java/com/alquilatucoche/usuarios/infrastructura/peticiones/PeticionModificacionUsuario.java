@@ -19,17 +19,11 @@ public class PeticionModificacionUsuario {
 	
 	private String provincia;
 	
-	private String numeroDeCuenta;
-	
 	private String email;
 	
 	private String password;
 	
 	private String numeroTelefono;
-	
-	private Boolean propietario;
-	
-	private String stripeId;
 	
 	private byte[] imagenPerfil;
 

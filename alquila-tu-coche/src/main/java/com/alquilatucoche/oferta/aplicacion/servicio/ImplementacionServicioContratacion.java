@@ -86,7 +86,7 @@ public class ImplementacionServicioContratacion implements ServicioContratacion{
 		
 		servicioPago.enviarPago(PeticionEmisionPago.builder()
 			.transaccionId(transaccion.getId())
-			.propietarioStripeId(servicioUsuario.busquedaUsuario(idPropietario).getNumeroDeCuenta())
+			.propietarioStripeId(servicioUsuario.cuentaStripePropietario(idPropietario))
 			.build());
 		
 		LocalDate fechaFinAlquiler = LocalDate.now().plusDays(transaccion.getDiasContratados());

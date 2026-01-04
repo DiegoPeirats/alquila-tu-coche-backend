@@ -26,13 +26,9 @@ public class UsuarioDTO {
 	
 	private String provincia;
 	
-	private String numeroDeCuenta;
-	
 	private String email;
 	
 	private String numeroTelefono;
-	
-	private Boolean propietario;
 
 	private byte[] imagenPerfil;
 	

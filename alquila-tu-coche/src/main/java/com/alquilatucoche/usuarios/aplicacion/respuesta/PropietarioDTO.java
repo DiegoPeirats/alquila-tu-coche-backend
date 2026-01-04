@@ -15,4 +15,5 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 public class PropietarioDTO extends UsuarioDTO {
     private List<VehiculoDTO> vehiculos;
+    private String cuenta;
 }

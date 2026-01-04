@@ -24,8 +24,6 @@ public class PeticionAltaUsuario {
 	@NotBlank(message = "La provincia es obligatoria")
 	private String provincia;
 
-	private String numeroDeCuenta;
-
 	@NotBlank(message = "La dirección de email es obligatoria")
 	@Email(message = "El email no es válido")
 	private String email;
@@ -35,10 +33,6 @@ public class PeticionAltaUsuario {
 
 	@NotBlank(message = "El teléfono es obligatorio")
 	private String numeroTelefono;
-
-	private Boolean propietario;
-
-	private String stripeId;
 	
 	private byte[] imagenPerfil;
 

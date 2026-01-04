@@ -21,6 +21,7 @@ import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionAltaUsuario
 import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionLogin;
 import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionModificacionUsuario;
 import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionRegistroPropietario;
+import com.stripe.exception.StripeException;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -80,7 +81,7 @@ public class ControladorUsuarios {
     }
     
     @PostMapping("/public/registrarPropietario")
-    public ResponseEntity<String> registrarPropietario(@RequestBody PeticionRegistroPropietario peticion){
+    public ResponseEntity<String> registrarPropietario(@RequestBody PeticionRegistroPropietario peticion) throws StripeException{
     	return ResponseEntity.status(HttpStatus.OK).body(servicio.registrarComoPropietario(peticion));
     }
 

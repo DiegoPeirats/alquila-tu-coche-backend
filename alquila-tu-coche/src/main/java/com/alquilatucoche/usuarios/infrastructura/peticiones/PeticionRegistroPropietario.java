@@ -10,10 +10,6 @@ public class PeticionRegistroPropietario {
 	
 	@NotBlank(message = "El contrato es obligatorio")
 	private byte[] imagenContrato;
-
-	@NotBlank(message = "El número de cuenta es obligatorio")
-	private String numeroDeCuenta;
-	
 	
 
 }
