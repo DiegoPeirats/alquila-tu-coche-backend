@@ -1,0 +1,15 @@
+package com.alquilatucoche.pagos.dominio.servicio;
+
+import com.alquilatucoche.pagos.infraestructura.peticiones.DatosPagoOferta;
+import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionEmisionPago;
+import com.stripe.exception.StripeException;
+
+public interface ServicioPago {
+	
+	String recibirPago(DatosPagoOferta datos) throws StripeException;
+	
+	String enviarPago(PeticionEmisionPago peticion) throws StripeException;
+	
+	String confirmarPago(String sessionId, Long transaccionId) throws StripeException;
+
+}

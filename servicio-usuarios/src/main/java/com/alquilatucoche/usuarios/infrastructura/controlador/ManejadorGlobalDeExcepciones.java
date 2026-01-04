@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import com.alquilatucoche.oferta.aplicacion.respuesta.excepcion.OfertaNoEncontradaExcepcion;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.excepciones.UsuarioNoEncontradoExcepcion;
 import com.alquilatucoche.vehiculos.aplicacion.respuesta.excepciones.VehiculoNoEncontradoExcepcion;
+import com.stripe.exception.StripeException;
 
 @ControllerAdvice
 public class ManejadorGlobalDeExcepciones {
@@ -34,6 +35,11 @@ public class ManejadorGlobalDeExcepciones {
 	@ExceptionHandler(VehiculoNoEncontradoExcepcion.class)
 	public ResponseEntity<String> ofertaNotFound(OfertaNoEncontradaExcepcion ex){
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
+	}
+	
+	@ExceptionHandler(StripeException.class)
+	public ResponseEntity<String> falloStripe(StripeException ex){
+		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
 	}
 	
 	@ExceptionHandler(MethodArgumentNotValidException.class)

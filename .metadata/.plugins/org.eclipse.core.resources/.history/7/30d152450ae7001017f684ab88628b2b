@@ -1,0 +1,5 @@
+package com.alquilatucoche.pagos.infraestructura.peticiones;
+
+public class PeticionRecepcionPago {
+
+}

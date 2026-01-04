@@ -1,0 +1,18 @@
+package com.alquilatucoche.pagos.infraestructura.peticiones;
+
+import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
+
+import lombok.Builder;
+import lombok.Getter;
+
+@Getter
+@Builder
+public class DatosPagoOferta {
+	
+	private UsuarioDTO usuario;
+	
+	private Long OfertaId;
+	
+	private Double precio;
+
+}

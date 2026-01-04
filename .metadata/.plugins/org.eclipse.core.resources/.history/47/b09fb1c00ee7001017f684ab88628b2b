@@ -1,0 +1,13 @@
+package com.alquilatucoche.pagos.dominio.servicio;
+
+import com.alquilatucoche.pagos.aplicacion.respuesta.RespuestaPago;
+import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionEmisionPago;
+import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionRecepcionPago;
+
+public interface ServicioPago {
+	
+	RespuestaPago recibirPago(PeticionRecepcionPago peticion);
+	
+	RespuestaPago enviarPago(PeticionEmisionPago peticion);
+
+}

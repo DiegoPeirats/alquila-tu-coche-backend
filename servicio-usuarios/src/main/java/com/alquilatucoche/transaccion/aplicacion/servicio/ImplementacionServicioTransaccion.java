@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import com.alquilatucoche.transaccion.aplicacion.respuesta.TransaccionDTO;
+import com.alquilatucoche.transaccion.aplicacion.respuesta.excepcion.TransaccionNoEncontradaExcepcion;
 import com.alquilatucoche.transaccion.aplicacion.utiles.TransaccionMapper;
 import com.alquilatucoche.transaccion.dominio.entidad.Transaccion;
 import com.alquilatucoche.transaccion.dominio.servicio.ServicioTransaccion;
@@ -96,6 +97,13 @@ public class ImplementacionServicioTransaccion implements ServicioTransaccion{
 		return vencidas.stream()
 				.map(Transaccion::getIdOferta)
 				.collect(Collectors.toList());
+	}
+
+	@Override
+	public TransaccionDTO obtenerUltimaTransaccionDelCliente(Long idCliente) {
+		return repositorio.findFirstByIdClienteOrderByFechaCreacionDesc(idCliente)
+				.map(transaccion -> mapper.toDto(transaccion))
+				.orElseThrow(() -> new TransaccionNoEncontradaExcepcion());
 	}
 	
 }

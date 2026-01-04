@@ -1,0 +1,11 @@
+package com.alquilatucoche.transaccion.aplicacion.respuesta.excepcion;
+
+public class TransaccionNoEncontradaExcepcion extends RuntimeException{
+
+	public TransaccionNoEncontradaExcepcion() {
+		super("Transaccion no encontrada");
+	}
+	
+	
+
+}

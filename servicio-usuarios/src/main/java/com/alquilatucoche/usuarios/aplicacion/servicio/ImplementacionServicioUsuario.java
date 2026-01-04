@@ -9,12 +9,12 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.alquilatucoche.email.servicio.ServicioEmail;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.DetallesUsuarioDTO;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.LoginDTO;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.PropietarioDTO;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.excepciones.UsuarioNoEncontradoExcepcion;
-import com.alquilatucoche.usuarios.aplicacion.utiles.ServicioEmail;
 import com.alquilatucoche.usuarios.aplicacion.utiles.UsuarioMapper;
 import com.alquilatucoche.usuarios.dominio.entidad.Role;
 import com.alquilatucoche.usuarios.dominio.entidad.Usuario;

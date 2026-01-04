@@ -1,0 +1,10 @@
+package com.alquilatucoche.pagos.aplicacion.respuesta;
+
+import lombok.Getter;
+
+@Getter
+public class RespuestaPago {
+	
+	private String respuesta;
+
+}

@@ -1,0 +1,9 @@
+package com.alquilatucoche.pagos.infraestructura.peticiones;
+
+public class PeticionTransferencia {
+	
+    private Long amount;
+    private String ownerStripeId;
+    private String paymentIntentId;
+
+}

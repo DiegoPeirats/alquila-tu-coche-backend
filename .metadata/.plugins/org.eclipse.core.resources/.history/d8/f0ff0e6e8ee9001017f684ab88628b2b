@@ -1,0 +1,5 @@
+package com.alquilatucoche.email;
+
+public class ControladorEmail {
+
+}

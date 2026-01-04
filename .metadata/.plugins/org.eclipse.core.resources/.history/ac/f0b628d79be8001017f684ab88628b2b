@@ -1,0 +1,20 @@
+package com.alquilatucoche.oferta.infraestructura.peticiones;
+
+import com.alquilatucoche.oferta.dominio.entidad.EstadoOferta;
+
+import lombok.Getter;
+
+@Getter
+public class PeticionContratacionOferta {
+	
+	private Long id;
+	
+	private EstadoOferta estado;
+	
+	private Double precioPorDia;
+	
+	private Integer diasContratados;
+	
+	private Long idCliente;
+
+}

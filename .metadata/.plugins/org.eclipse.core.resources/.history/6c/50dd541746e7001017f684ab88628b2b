@@ -1,0 +1,8 @@
+package com.alquilatucoche.pagos.aplicacion.respuesta;
+
+public enum TipoResultado {
+	
+	EXITO,
+	FRACASO
+
+}

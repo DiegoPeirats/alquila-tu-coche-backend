@@ -1,0 +1,19 @@
+package com.alquilatucoche.pagos.aplicacion.respuesta;
+
+import lombok.Builder;
+import lombok.Getter;
+
+@Getter
+@Builder
+public class RespuestaPago {
+	
+	private Long ofertaId;
+	
+	private Integer valoracion;
+	
+	
+	
+	
+	private String mensaje;
+
+}

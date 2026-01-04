@@ -1,0 +1,5 @@
+package com.alquilatucoche.transaccion.aplicacion.respuesta.excepcion;
+
+public class TransaccionNoEncontradaExcepcion {
+
+}

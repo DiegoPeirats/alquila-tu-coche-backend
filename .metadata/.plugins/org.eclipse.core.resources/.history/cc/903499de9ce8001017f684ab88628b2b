@@ -1,0 +1,88 @@
+package com.alquilatucoche.oferta.aplicacion.servicio;
+
+import java.util.List;
+
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Service;
+
+import com.alquilatucoche.oferta.aplicacion.respuesta.ResultadoContratacion;
+import com.alquilatucoche.oferta.dominio.servicio.ServicioContratacion;
+import com.alquilatucoche.oferta.dominio.servicio.ServicioOferta;
+import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionContratacionOferta;
+import com.alquilatucoche.pagos.dominio.servicio.ServicioPago;
+import com.alquilatucoche.pagos.infraestructura.peticiones.DatosPagoOferta;
+import com.alquilatucoche.transaccion.aplicacion.respuesta.TransaccionDTO;
+import com.alquilatucoche.transaccion.dominio.servicio.ServicioTransaccion;
+import lombok.RequiredArgsConstructor;
+import com.alquilatucoche.transaccion.infraestructura.peticiones.PeticionCreacionTransaccion;
+import com.alquilatucoche.usuarios.dominio.servicio.ServicioUsuario;
+import com.stripe.exception.StripeException;
+
+import jakarta.transaction.Transactional;
+
+
+@Service
+@RequiredArgsConstructor
+public class ImplementacionServicioContratacion implements ServicioContratacion{
+	
+	private final ServicioOferta servicioOferta;
+	
+	private final ServicioTransaccion servicioTransaccion;
+	
+	private final ServicioPago servicioPago;
+	
+	private final ServicioUsuario servicioUsuario;
+
+	@Override
+	@Transactional
+	public ResultadoContratacion contratarOferta(PeticionContratacionOferta peticion) throws StripeException {
+		
+		Double precio = servicioOferta.obtenerPrecioPorContratacion(peticion.getDatos().getOfertaId(), peticion.getDatos().getDiasContratados());
+		
+		//pago y comprobación
+		
+		DatosPagoOferta datosPago = DatosPagoOferta.builder()
+				.ofertaId(peticion.getId())
+				.precio(precio)
+				.usuario(servicioUsuario.busquedaUsuario(peticion.getIdCliente()))
+				.build();
+		
+		//esto no va aqui, tiene que ir a un controlador para que el cliente obtenga la url 
+		String urlPago = servicioPago.recibirPago(datosPago); //el cliente accede al link y obtiene el sessionID
+		
+		// crear la transaccion
+		
+		servicioOferta.establecerOfertaContratada(peticion.getId());
+		
+		PeticionCreacionTransaccion peticionTransaccion = PeticionCreacionTransaccion.builder()
+				.precio(precio)
+				.idOferta(peticion.getId())
+				.idUsuario(peticion.getIdCliente())
+				.build();
+		
+		TransaccionDTO transaccion = servicioTransaccion.crearTransaccion(peticionTransaccion);
+		
+		//comprobar el pago
+		
+		servicioPago.confirmarPago(null, transaccion.getId(), Math.round(precio));
+		
+		return ResultadoContratacion.builder()
+				.oferta(servicioOferta.obtenerOferta(peticion.getId()))
+				.transaccion(transaccion)
+				.resultado("Exito")
+				.build();
+	}
+	
+	//crear metodo para ver si el proceso ha ido bien y enviar el dinero al propietario
+
+	@Override
+	@Transactional
+	@Scheduled(fixedRate = 24 * 60 * 60 * 1000)
+	public void terminarContrato() {
+		
+		List<Long> idsOfertas = servicioTransaccion.obtenerIdOfertasCaducadas();
+		
+		servicioOferta.liberarOfertas(idsOfertas);
+	}
+
+}

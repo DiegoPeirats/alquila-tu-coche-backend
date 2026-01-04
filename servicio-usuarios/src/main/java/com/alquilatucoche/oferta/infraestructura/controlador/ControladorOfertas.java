@@ -11,10 +11,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alquilatucoche.oferta.aplicacion.respuesta.OfertaDTO;
+import com.alquilatucoche.oferta.aplicacion.respuesta.ResultadoContratacion;
+import com.alquilatucoche.oferta.dominio.servicio.ServicioContratacion;
 import com.alquilatucoche.oferta.dominio.servicio.ServicioOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.FiltroBusquedaOfertas;
+import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionContratacionOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionCreacionOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionModificarOferta;
+import com.stripe.exception.StripeException;
 
 import lombok.RequiredArgsConstructor;
 
@@ -23,29 +27,37 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ControladorOfertas {
 	
-	private final ServicioOferta servicio;
+	private final ServicioOferta servicioOferta;
+	
+	private final ServicioContratacion servicioContratacion;
 	
 	@PostMapping("/crearOferta")
 	public ResponseEntity<OfertaDTO> crearOferta(PeticionCreacionOferta peticion){
-		return ResponseEntity.status(HttpStatus.CREATED).body(servicio.crearOferta(peticion));
+		return ResponseEntity.status(HttpStatus.CREATED).body(servicioOferta.crearOferta(peticion));
 	}
 	
 	
 	@PutMapping("/modificarOferta")
 	public ResponseEntity<OfertaDTO> modificarOferta(PeticionModificarOferta peticion){
-		return ResponseEntity.status(HttpStatus.OK).body(servicio.modificarOferta(peticion));
+		return ResponseEntity.status(HttpStatus.OK).body(servicioOferta.modificarOferta(peticion));
 	}
 
 	
 	@DeleteMapping("/eliminarOferta")
 	public ResponseEntity<String> eliminarOferta(Long id){
-		return ResponseEntity.status(HttpStatus.ACCEPTED).body(servicio.eliminarOferta(id));
+		return ResponseEntity.status(HttpStatus.ACCEPTED).body(servicioOferta.eliminarOferta(id));
 	}
 
 	
 	@PostMapping("/obtenerOfertas")
 	public ResponseEntity<List<OfertaDTO>> obtenerOfertas(FiltroBusquedaOfertas filtro){
-		return ResponseEntity.status(HttpStatus.CREATED).body(servicio.obtenerOfertas(filtro));
+		return ResponseEntity.status(HttpStatus.CREATED).body(servicioOferta.obtenerOfertas(filtro));
+	}
+
+	
+	@PostMapping("/contratarOferta")
+	public ResponseEntity<ResultadoContratacion> contratarOferta(PeticionContratacionOferta peticion) throws StripeException{
+		return ResponseEntity.status(HttpStatus.OK).body(servicioContratacion.contratarOferta(peticion));
 	}
 	
 

@@ -1,0 +1,14 @@
+package com.alquilatucoche.pagos.dominio.servicio;
+
+import com.alquilatucoche.pagos.aplicacion.respuesta.RespuestaPago;
+import com.alquilatucoche.pagos.infraestructura.peticiones.DatosPagoOferta;
+import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionEmisionPago;
+import com.stripe.exception.StripeException;
+
+public interface ServicioPago {
+	
+	String recibirPago(DatosPagoOferta datos) throws StripeException;
+	
+	RespuestaPago enviarPago(PeticionEmisionPago peticion);
+
+}

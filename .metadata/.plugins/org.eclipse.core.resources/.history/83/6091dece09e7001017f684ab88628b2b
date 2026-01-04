@@ -1,0 +1,12 @@
+package com.alquilatucoche.pagos.infraestructura.peticiones;
+
+import lombok.Getter;
+
+@Getter
+public class PeticionTransferencia {
+	
+    private Long cantidad;
+    private String propietarioStripeId;
+    private String IdIntentoPago;
+
+}

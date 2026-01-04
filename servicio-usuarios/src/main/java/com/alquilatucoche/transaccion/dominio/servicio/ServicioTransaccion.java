@@ -5,6 +5,7 @@ import java.util.List;
 import com.alquilatucoche.transaccion.aplicacion.respuesta.TransaccionDTO;
 import com.alquilatucoche.transaccion.infraestructura.peticiones.FiltroBusquedaTransacciones;
 import com.alquilatucoche.transaccion.infraestructura.peticiones.PeticionCreacionTransaccion;
+import com.stripe.exception.StripeException;
 
 public interface ServicioTransaccion {
 	
@@ -15,5 +16,7 @@ public interface ServicioTransaccion {
 	List<TransaccionDTO> obtenerHistorialTransacciones(FiltroBusquedaTransacciones filtro);
 	
 	List<Long> obtenerIdOfertasCaducadas();
+	
+	TransaccionDTO obtenerUltimaTransaccionDelCliente(Long idCliente);
 
 }

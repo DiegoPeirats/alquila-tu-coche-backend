@@ -1,20 +1,14 @@
 package com.alquilatucoche.oferta.infraestructura.peticiones;
 
-import com.alquilatucoche.oferta.dominio.entidad.EstadoOferta;
+import com.alquilatucoche.pagos.infraestructura.peticiones.DatosPagoOferta;
 
 import lombok.Getter;
 
 @Getter
 public class PeticionContratacionOferta {
 	
-	private Long id;
+	private String sessionId;
 	
-	private EstadoOferta estado;
-	
-	private Double precioPorDia;
-	
-	private Integer diasContratados;
-	
-	private Long idCliente;
+	private DatosPagoOferta datos;
 
 }

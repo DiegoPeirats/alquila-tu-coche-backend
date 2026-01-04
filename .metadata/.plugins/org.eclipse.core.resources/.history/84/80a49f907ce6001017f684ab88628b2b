@@ -1,0 +1,5 @@
+package com.alquilatucoche.pagos.dominio.servicio;
+
+public interface ServicioPago {
+
+}

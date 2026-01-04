@@ -1,0 +1,5 @@
+package com.alquilatucoche.pagos.aplicacion.respuesta;
+
+public class PagoNoEncontradoExcepcion {
+
+}

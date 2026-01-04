@@ -1,0 +1,10 @@
+package com.alquilatucoche.pagos.aplicacion.respuesta;
+
+public class PagoNoEncontradoExcepcion extends RuntimeException{
+
+	public PagoNoEncontradoExcepcion() {
+		super();
+	}
+
+	
+}

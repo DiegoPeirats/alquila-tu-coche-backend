@@ -1,0 +1,5 @@
+package com.alquilatucoche.pagos.aplicacion.servicio;
+
+public class ImplementacionServicioStripe {
+
+}

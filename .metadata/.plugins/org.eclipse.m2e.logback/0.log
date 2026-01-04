@@ -2011,3 +2011,587 @@
 2025-12-28 20:11:02,783 [Worker-585: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-12-28 20:11:02,788 [Worker-585: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-12-28 20:11:02,792 [Worker-585: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-28 20:11:45,748 [Worker-587: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2025-12-28 20:11:45,753 [Worker-587: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-28 20:11:45,758 [Worker-587: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-28 20:11:45,761 [Worker-587: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 19:13:11,318 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-31 19:17:56,146 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-12-31 19:18:00,241 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2025-12-31 19:18:00,244 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-12-31 19:18:00,244 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-12-31 19:18:00,245 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-12-31 19:18:00,245 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-12-31 19:18:00,245 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-12-31 19:18:00,245 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-12-31 19:18:00,246 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-12-31 19:18:00,246 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-12-31 19:18:00,246 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-12-31 19:18:00,246 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-12-31 19:18:00,248 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-12-31 19:18:00,248 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-12-31 19:18:00,249 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-12-31 19:18:00,249 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-12-31 19:18:00,250 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-12-31 19:18:00,250 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-12-31 19:18:00,250 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-12-31 19:18:00,251 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-12-31 19:18:00,251 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-12-31 19:18:00,251 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-12-31 19:18:00,252 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-12-31 19:18:00,252 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-12-31 19:18:00,252 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-12-31 19:18:00,252 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-12-31 19:18:00,252 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-12-31 19:18:00,252 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-12-31 19:18:00,253 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-12-31 19:18:00,253 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-12-31 19:18:00,253 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-12-31 19:18:00,253 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-12-31 19:18:00,253 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-12-31 19:18:00,253 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-12-31 19:18:00,254 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-12-31 19:18:00,254 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-12-31 19:18:00,254 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-12-31 19:18:00,254 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-12-31 19:18:00,254 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-12-31 19:18:00,254 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-12-31 19:18:00,255 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-12-31 19:18:00,255 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-12-31 19:18:00,255 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-12-31 19:18:00,255 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-12-31 19:18:00,255 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-12-31 19:18:00,255 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-12-31 19:18:00,258 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2025-12-31 19:18:00,259 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2025-12-31 19:18:00,259 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2025-12-31 19:18:00,259 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-12-31 19:18:00,259 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2025-12-31 19:18:00,260 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-12-31 19:18:00,260 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2025-12-31 19:18:00,261 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-12-31 19:18:00,261 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2025-12-31 19:18:00,261 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-12-31 19:18:00,261 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2025-12-31 19:18:00,262 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-12-31 19:18:00,262 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2025-12-31 19:18:00,262 [Worker-5: Launching servicio-usuarios] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-12-31 19:18:00,269 [Worker-5: Launching servicio-usuarios] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\diego\alquila-tu-coche\servicio-usuarios":
+2025-12-31 19:18:00,275 [Worker-5: Launching servicio-usuarios] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2025-12-31 19:29:49,432 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-12-31 19:29:52,752 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2025-12-31 19:29:52,753 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-12-31 19:29:52,753 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-12-31 19:29:52,754 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-12-31 19:29:52,754 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-12-31 19:29:52,754 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-12-31 19:29:52,754 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-12-31 19:29:52,754 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-12-31 19:29:52,755 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-12-31 19:29:52,755 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-12-31 19:29:52,755 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-12-31 19:29:52,755 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-12-31 19:29:52,755 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-12-31 19:29:52,755 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-12-31 19:29:52,756 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-12-31 19:29:52,756 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-12-31 19:29:52,756 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-12-31 19:29:52,756 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-12-31 19:29:52,756 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-12-31 19:29:52,756 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-12-31 19:29:52,757 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-12-31 19:29:52,757 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-12-31 19:29:52,757 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-12-31 19:29:52,757 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-12-31 19:29:52,757 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-12-31 19:29:52,757 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-12-31 19:29:52,758 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-12-31 19:29:52,758 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-12-31 19:29:52,758 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-12-31 19:29:52,758 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-12-31 19:29:52,758 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-12-31 19:29:52,758 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-12-31 19:29:52,759 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-12-31 19:29:52,759 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-12-31 19:29:52,759 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-12-31 19:29:52,759 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-12-31 19:29:52,759 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-12-31 19:29:52,759 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-12-31 19:29:52,760 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-12-31 19:29:52,760 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-12-31 19:29:52,760 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-12-31 19:29:52,761 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-12-31 19:29:52,761 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-12-31 19:29:52,761 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-12-31 19:29:52,761 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-12-31 19:29:52,762 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2025-12-31 19:29:52,763 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2025-12-31 19:29:52,763 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2025-12-31 19:29:52,764 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-12-31 19:29:52,764 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2025-12-31 19:29:52,765 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-12-31 19:29:52,765 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2025-12-31 19:29:52,765 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-12-31 19:29:52,765 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2025-12-31 19:29:52,766 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-12-31 19:29:52,766 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2025-12-31 19:29:52,766 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-12-31 19:29:52,766 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2025-12-31 19:29:52,767 [Worker-32: Launching servicio-usuarios (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-12-31 19:29:52,769 [Worker-32: Launching servicio-usuarios (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\diego\alquila-tu-coche\servicio-usuarios":
+2025-12-31 19:29:52,769 [Worker-32: Launching servicio-usuarios (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2025-12-31 19:41:52,514 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-12-31 19:41:58,784 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2025-12-31 19:41:58,784 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-12-31 19:41:58,785 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-12-31 19:41:58,785 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-12-31 19:41:58,785 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-12-31 19:41:58,785 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-12-31 19:41:58,785 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-12-31 19:41:58,785 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-12-31 19:41:58,786 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-12-31 19:41:58,786 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-12-31 19:41:58,786 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-12-31 19:41:58,786 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-12-31 19:41:58,786 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-12-31 19:41:58,786 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-12-31 19:41:58,787 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-12-31 19:41:58,787 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-12-31 19:41:58,788 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-12-31 19:41:58,788 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-12-31 19:41:58,788 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-12-31 19:41:58,788 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-12-31 19:41:58,789 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-12-31 19:41:58,789 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-12-31 19:41:58,789 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-12-31 19:41:58,790 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-12-31 19:41:58,790 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-12-31 19:41:58,790 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-12-31 19:41:58,790 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-12-31 19:41:58,791 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-12-31 19:41:58,791 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-12-31 19:41:58,791 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-12-31 19:41:58,791 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-12-31 19:41:58,791 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-12-31 19:41:58,792 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-12-31 19:41:58,792 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-12-31 19:41:58,792 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-12-31 19:41:58,792 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-12-31 19:41:58,792 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-12-31 19:41:58,794 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-12-31 19:41:58,794 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-12-31 19:41:58,794 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-12-31 19:41:58,794 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-12-31 19:41:58,794 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-12-31 19:41:58,794 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-12-31 19:41:58,795 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-12-31 19:41:58,795 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-12-31 19:41:58,795 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2025-12-31 19:41:58,796 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2025-12-31 19:41:58,796 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2025-12-31 19:41:58,798 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-12-31 19:41:58,798 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2025-12-31 19:41:58,799 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-12-31 19:41:58,799 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2025-12-31 19:41:58,799 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-12-31 19:41:58,800 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2025-12-31 19:41:58,800 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-12-31 19:41:58,800 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2025-12-31 19:41:58,801 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-12-31 19:41:58,801 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2025-12-31 19:41:58,802 [Worker-32: Launching servicio-usuarios (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\diego\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-12-31 19:41:58,804 [Worker-32: Launching servicio-usuarios (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\diego\alquila-tu-coche\servicio-usuarios":
+2025-12-31 19:41:58,805 [Worker-32: Launching servicio-usuarios (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2025-12-31 19:42:04,513 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: alquila-tu-coche:servicio-usuarios:0.0.1-SNAPSHOT @ C:\Users\diego\alquila-tu-coche\servicio-usuarios\pom.xml.
+2025-12-31 19:42:06,142 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+2025-12-31 19:42:06,174 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+2025-12-31 19:42:08,336 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 19:42:08,380 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 19:42:08,386 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 19:42:09,174 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0-sources.jar
+2025-12-31 19:42:09,215 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0-sources.jar
+2025-12-31 19:42:09,222 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.errorprone:error_prone_annotations:2.41.0
+2025-12-31 19:42:11,622 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 19:42:11,635 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 19:42:11,640 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:07:00,302 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:07:00,309 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:07:00,316 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:07:30,952 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:07:30,959 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:07:30,970 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:10:52,866 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:10:52,874 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:10:52,880 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:11:13,379 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:11:13,384 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:11:13,388 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:11:34,304 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:11:34,311 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:11:34,315 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:11:52,733 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:11:52,738 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:11:52,743 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:13:16,320 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:13:16,326 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:13:16,329 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2025-12-31 20:16:05,426 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 20:16:05,431 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 20:16:05,434 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:04:38,848 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:04:38,859 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:04:38,862 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:04:49,193 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:04:49,201 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:04:49,206 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:05:04,285 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:05:04,291 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:05:04,296 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:05:33,075 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:05:33,080 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:05:33,085 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:22:32,782 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:22:32,791 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:22:32,797 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:25:26,038 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:25:26,048 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:25:26,052 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:35:05,311 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:35:05,317 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:35:05,321 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:44:59,737 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:44:59,746 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:44:59,752 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:57:08,245 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:57:08,254 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:57:08,258 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:57:54,013 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:57:54,020 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:57:54,023 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 12:58:27,207 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 12:58:27,214 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 12:58:27,217 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:00:32,024 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:00:32,027 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:00:32,030 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:00:56,426 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:00:56,430 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:00:56,434 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:02:56,190 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:02:56,197 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:02:56,203 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:06:15,061 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:06:15,071 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:06:15,080 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:09:57,055 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:09:57,070 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:09:57,080 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:12:28,599 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:12:28,606 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:12:28,612 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:14:22,279 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:14:22,287 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:14:22,292 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:18:19,581 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:18:19,589 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:18:19,596 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:18:31,382 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:18:31,388 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:18:31,393 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:20:01,933 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:20:01,942 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:20:01,949 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:31:14,211 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:31:14,222 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:31:14,230 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:34:31,993 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:34:32,000 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:34:32,006 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:38:19,890 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:38:19,899 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:38:19,904 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:38:30,779 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:38:30,784 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:38:30,789 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:48:14,679 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:48:14,685 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:48:14,692 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:49:37,695 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:49:37,701 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:49:37,709 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:49:58,136 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:49:58,142 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:49:58,147 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 13:50:54,604 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 13:50:54,610 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 13:50:54,614 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 18:07:50,481 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 18:07:50,487 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 18:07:50,496 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 18:09:15,748 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 18:09:15,758 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 18:09:15,764 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 18:09:36,651 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 18:09:36,659 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 18:09:36,668 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 18:11:07,054 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 18:11:07,061 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 18:11:07,066 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 18:43:51,641 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 18:43:51,649 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 18:43:51,691 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 18:58:42,647 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 18:58:42,655 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 18:58:42,663 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:04:40,941 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:04:40,950 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:04:40,954 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:05:37,752 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:05:37,758 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:05:37,763 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:07:04,225 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:07:04,231 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:07:04,236 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:15:20,681 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:15:20,695 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:15:20,705 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:15:50,032 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:15:50,037 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:15:50,041 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:16:15,485 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:16:15,493 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:16:15,499 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:47:47,232 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:47:47,242 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:47:47,248 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:48:21,829 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:48:21,839 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:48:21,850 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 19:51:02,674 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 19:51:02,680 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 19:51:02,685 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:02:50,653 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:02:50,658 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:02:50,662 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:14:20,528 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:14:20,534 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:14:20,539 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:14:24,264 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:14:24,270 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:14:24,275 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:14:27,531 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:14:27,534 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:14:27,537 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:24:04,097 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:24:04,103 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:24:04,108 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:24:35,691 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:24:35,695 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:24:35,698 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:24:42,948 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:24:42,952 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:24:42,955 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:24:59,071 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:24:59,077 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:24:59,081 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:29:38,905 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:29:38,912 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:29:38,917 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:29:49,929 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:29:49,933 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:29:49,941 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:30:25,185 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:30:25,190 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:30:25,194 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:33:27,458 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:33:27,466 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:33:27,472 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:34:25,102 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:34:25,106 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:34:25,109 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:35:14,542 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:35:14,548 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:35:14,552 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:40:06,066 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:40:06,073 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:40:06,077 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:42:08,654 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:42:08,657 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:42:08,660 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:43:09,874 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:43:09,877 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:43:09,881 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:44:12,173 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:44:12,179 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:44:12,183 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:54:08,180 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:54:08,185 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:54:08,188 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 20:57:42,350 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 20:57:42,354 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 20:57:42,357 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 21:12:31,943 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 21:12:31,950 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 21:12:31,953 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 21:13:35,165 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 21:13:35,170 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 21:13:35,175 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 21:13:53,340 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 21:13:53,344 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 21:13:53,347 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 21:14:22,248 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 21:14:22,252 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 21:14:22,255 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-01 21:14:29,200 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-01 21:14:29,204 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-01 21:14:29,208 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 12:52:07,689 [Worker-238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 12:52:07,697 [Worker-238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 12:52:07,701 [Worker-238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 12:58:20,302 [Worker-234: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 12:58:20,310 [Worker-234: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 12:58:20,313 [Worker-234: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 13:00:47,789 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 13:00:47,795 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 13:00:47,799 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 13:01:40,519 [Worker-238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 13:01:40,525 [Worker-238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 13:01:40,531 [Worker-238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 13:08:09,816 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 13:08:09,823 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 13:08:09,825 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 13:08:41,752 [Worker-242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 13:08:41,757 [Worker-242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 13:08:41,760 [Worker-242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-03 14:18:11,063 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-03 14:18:11,072 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-03 14:18:11,077 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:13:40,341 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:13:40,356 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:13:40,360 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:17:15,049 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:17:15,057 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:17:15,060 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:17:38,855 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:17:38,859 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:17:38,862 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:17:42,345 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:17:42,350 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:17:42,353 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:18:16,852 [Worker-288: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:18:16,857 [Worker-288: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:18:16,861 [Worker-288: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:30:13,594 [Worker-299: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:30:13,604 [Worker-299: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:30:13,607 [Worker-299: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:30:30,944 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:30:30,953 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:30:30,959 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:31:12,482 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:31:12,485 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:31:12,488 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:31:21,799 [Worker-301: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:31:21,804 [Worker-301: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:31:21,810 [Worker-301: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:49:03,746 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:49:03,756 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:49:03,760 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:51:26,285 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:51:26,291 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:51:26,295 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 15:54:25,579 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 15:54:25,588 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 15:54:25,591 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:02:07,698 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:02:07,707 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:02:07,718 [Worker-305: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:03:33,699 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:03:33,713 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:03:33,723 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:06:01,364 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:06:01,373 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:06:01,382 [Worker-304: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:08:25,072 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:08:25,079 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:08:25,084 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:08:33,485 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:08:33,493 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:08:33,498 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:09:45,527 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:09:45,536 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:09:45,544 [Worker-296: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:10:15,691 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:10:15,698 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:10:15,703 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:10:19,650 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:10:19,657 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:10:19,663 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:10:25,635 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:10:25,641 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:10:25,646 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:11:31,309 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:11:31,316 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:11:31,326 [Worker-306: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:44:02,920 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:44:02,927 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:44:02,932 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:45:15,350 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:45:15,355 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:45:15,360 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 16:58:47,913 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 16:58:47,920 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 16:58:47,926 [Worker-318: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:00:34,581 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:00:34,589 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:00:34,594 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:00:45,823 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:00:45,830 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:00:45,835 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:00:50,279 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:00:50,287 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:00:50,292 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:00:53,502 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:00:53,509 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:00:53,513 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:00:55,859 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:00:55,864 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:00:55,869 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:23:54,062 [Worker-329: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:23:54,071 [Worker-329: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:23:54,077 [Worker-329: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:24:35,182 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:24:35,189 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:24:35,192 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:25:10,516 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:25:10,525 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:25:10,531 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:26:04,473 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:26:04,480 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:26:04,485 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:27:32,593 [Worker-333: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:27:32,600 [Worker-333: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:27:32,605 [Worker-333: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:46:24,677 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:46:24,712 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:46:24,722 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:46:31,182 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:46:31,189 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:46:31,193 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:47:44,354 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:47:44,362 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:47:44,365 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:55:27,702 [Worker-343: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:55:27,712 [Worker-343: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:55:27,717 [Worker-343: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:56:52,537 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:56:52,544 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:56:52,547 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:57:08,762 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:57:08,771 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:57:08,775 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 17:57:19,149 [Worker-341: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 17:57:19,156 [Worker-341: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 17:57:19,161 [Worker-341: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources
+2026-01-04 18:25:14,796 [Worker-350: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-01-04 18:25:14,803 [Worker-350: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-01-04 18:25:14,808 [Worker-350: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\diego\alquila-tu-coche\servicio-usuarios\src\test\resources

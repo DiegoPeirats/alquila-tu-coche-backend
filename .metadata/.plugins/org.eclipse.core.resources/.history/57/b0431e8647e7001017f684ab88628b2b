@@ -1,0 +1,9 @@
+package com.alquilatucoche.pagos.dominio.entidad;
+
+public enum TipoPago {
+	
+	RECIBIDO,
+	ENVIADO,
+	DEVUELTO
+
+}

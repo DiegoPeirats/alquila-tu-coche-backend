@@ -24,5 +24,6 @@ public interface ServicioOferta {
 	void establecerOfertaContratada(Long idOferta);
 	
 	void liberarOfertas(List<Long> ids);
+	
 
 }

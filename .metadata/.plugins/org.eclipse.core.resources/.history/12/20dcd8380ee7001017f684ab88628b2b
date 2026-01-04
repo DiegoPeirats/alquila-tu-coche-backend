@@ -1,0 +1,106 @@
+package com.alquilatucoche.pagos.aplicacion.servicio;
+
+import com.alquilatucoche.pagos.dominio.servicio.ServicioStripe;
+import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionEmisionPago;
+import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionRecepcionPago;
+import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
+import com.stripe.exception.StripeException;
+import com.stripe.model.Account;
+import com.stripe.model.AccountLink;
+import com.stripe.model.Customer;
+import com.stripe.model.Transfer;
+import com.stripe.param.AccountCreateParams;
+import com.stripe.param.AccountLinkCreateParams;
+import com.stripe.param.CustomerCreateParams;
+import com.stripe.param.TransferCreateParams;
+import com.stripe.param.checkout.SessionCreateParams;
+
+public class ImplementacionServicioStripe implements ServicioStripe{
+
+	@Override
+	public String crearCliente(UsuarioDTO usuario) throws StripeException {
+		CustomerCreateParams params = CustomerCreateParams.builder()
+                .setName(usuario.getNombre() + " " + usuario.getApellidos())
+                .setEmail(usuario.getEmail())
+                .build();
+
+        Customer customer = Customer.create(params);
+        return customer.getId();
+	}
+
+	@Override
+	public String crearCuentaConexion(UsuarioDTO usuario) throws StripeException {
+		AccountCreateParams params = AccountCreateParams.builder()
+	            .setType(AccountCreateParams.Type.EXPRESS)
+	            .setEmail(usuario.getEmail())
+	            .build();
+
+	    Account account = Account.create(params);
+	    return account.getId(); 
+	}
+	
+	@Override
+	public String crearOnboardingLink(String accountId) throws StripeException {
+
+	    AccountLinkCreateParams params = AccountLinkCreateParams.builder()
+	            .setAccount(accountId)
+	            .setRefreshUrl("https://tuapp.com/onboarding/retry")
+	            .setReturnUrl("https://tuapp.com/onboarding/completed")
+	            .setType(AccountLinkCreateParams.Type.ACCOUNT_ONBOARDING)
+	            .build();
+
+	    AccountLink link = AccountLink.create(params);
+
+	    return link.getUrl(); // link al que redirigir al propietario
+	}
+	
+	@Override
+	public boolean comprobacionCuentaValida(String idCuenta) throws StripeException {
+		Account account = Account.retrieve(idCuenta);
+
+		return account.getChargesEnabled() && account.getPayoutsEnabled();
+	}
+
+	@Override
+	public SessionCreateParams crearSesion(PeticionRecepcionPago peticion) {
+		return SessionCreateParams.builder()
+                .setMode(SessionCreateParams.Mode.PAYMENT)
+                .setBillingAddressCollection(SessionCreateParams.BillingAddressCollection.REQUIRED)
+                .setCustomer(peticion.getIdStripeCliente())
+                .setSuccessUrl(peticion.getUrlExito())
+                .setCancelUrl(peticion.getUrlFallo())
+                .addLineItem(
+                        SessionCreateParams.LineItem.builder()
+                                .setQuantity(1L)
+                                .setPriceData(
+                                        SessionCreateParams.LineItem.PriceData.builder()
+                                                .setCurrency("EUR")
+                                                .setUnitAmount(Math.round(peticion.getPrecio()))
+                                                .setProductData(
+                                                        SessionCreateParams.LineItem.PriceData.ProductData.builder()
+                                                                .setName("Alquiler de vehículo")
+                                                                .setDescription("Id Oferta: " + peticion.getOfertaId() + "Id Cliente: " + peticion.getIdCliente())
+                                                                .build()
+                                                )
+                                                .build()
+                                )
+                                .build()
+                )
+                .build();
+	}
+	
+    @Override
+    public String transfirACuenta(PeticionEmisionPago request) throws StripeException {
+
+        TransferCreateParams params = TransferCreateParams.builder()
+                .setAmount(request.getCantidad())          
+                .setCurrency("EUR")
+                .setDestination(request.getPropietarioStripeId()) // cuenta stripe del propietario
+                .setSourceTransaction(request.getIdIntentoPago()) // opcional, enlaza la operación
+                .build();
+
+        Transfer transfer = Transfer.create(params);
+        return transfer.getId();
+    }
+
+}
