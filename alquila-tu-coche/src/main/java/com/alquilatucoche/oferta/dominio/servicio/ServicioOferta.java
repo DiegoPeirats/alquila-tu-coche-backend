@@ -1,0 +1,29 @@
+package com.alquilatucoche.oferta.dominio.servicio;
+
+import java.util.List;
+
+import com.alquilatucoche.oferta.aplicacion.respuesta.OfertaDTO;
+import com.alquilatucoche.oferta.infraestructura.peticiones.FiltroBusquedaOfertas;
+import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionCreacionOferta;
+import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionModificarOferta;
+
+public interface ServicioOferta {
+	
+	OfertaDTO crearOferta(PeticionCreacionOferta peticion);
+	
+	String eliminarOferta(Long id);
+	
+	OfertaDTO modificarOferta(PeticionModificarOferta peticion);
+	
+	List<OfertaDTO> obtenerOfertas(FiltroBusquedaOfertas filtro);
+
+	OfertaDTO obtenerOferta(Long id);
+	
+	Double obtenerPrecioPorContratacion(Long idOferta, Integer diasAContratar);
+	
+	void establecerOfertaContratada(Long idOferta);
+	
+	void liberarOfertas(List<Long> ids);
+	
+
+}

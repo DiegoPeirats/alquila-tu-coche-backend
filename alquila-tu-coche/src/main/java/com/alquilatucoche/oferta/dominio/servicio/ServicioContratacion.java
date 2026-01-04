@@ -1,0 +1,15 @@
+package com.alquilatucoche.oferta.dominio.servicio;
+
+import com.alquilatucoche.oferta.aplicacion.respuesta.ResultadoContratacion;
+import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionContratacionOferta;
+import com.stripe.exception.StripeException;
+
+public interface ServicioContratacion {
+	
+	ResultadoContratacion contratarOferta(PeticionContratacionOferta peticion) throws StripeException;
+	
+	String alquiladoConExito() throws StripeException ;
+	
+	void terminarContrato();
+
+}

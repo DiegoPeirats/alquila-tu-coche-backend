@@ -1,0 +1,24 @@
+package com.alquilatucoche.pagos.infraestructura.peticiones;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+public class PeticionRecepcionPago {
+	
+	private Long ofertaId;
+	
+	private Double precio;
+	
+	private String urlExito;
+	
+	private String urlFallo;
+	
+	private String idStripeCliente;
+	
+	private String idCliente;
+
+}

@@ -1,9 +1,0 @@
-package com.alquilatucoche.oferta.dominio.entidad;
-
-public enum EstadoOferta {
-	
-	DISPONIBLE,
-	CONTRATADA,
-	BLOQUEADA
-
-}

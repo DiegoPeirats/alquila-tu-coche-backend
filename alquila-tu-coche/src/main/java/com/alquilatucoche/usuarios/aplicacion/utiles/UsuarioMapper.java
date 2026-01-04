@@ -1,0 +1,26 @@
+package com.alquilatucoche.usuarios.aplicacion.utiles;
+
+import org.mapstruct.BeanMapping;
+import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
+import org.mapstruct.NullValuePropertyMappingStrategy;
+
+import com.alquilatucoche.usuarios.aplicacion.respuesta.PropietarioDTO;
+import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
+import com.alquilatucoche.usuarios.dominio.entidad.Usuario;
+import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionAltaUsuario;
+import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionModificacionUsuario;
+
+@Mapper(componentModel = "spring")
+public interface UsuarioMapper {
+	
+	UsuarioDTO toUsuarioDTO(Usuario usuario);
+	
+	PropietarioDTO toPropietarioDTO(Usuario usuario);
+	
+	@BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
+	void actualizarUsuarioDesdePeticion(PeticionModificacionUsuario peticion, @MappingTarget Usuario usuario);
+	
+	Usuario crearUsuarioDesdePeticion(PeticionAltaUsuario peticion);
+
+}

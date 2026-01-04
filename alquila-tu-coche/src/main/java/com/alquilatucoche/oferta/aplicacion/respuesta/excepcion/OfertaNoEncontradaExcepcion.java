@@ -1,0 +1,13 @@
+package com.alquilatucoche.oferta.aplicacion.respuesta.excepcion;
+
+public class OfertaNoEncontradaExcepcion extends RuntimeException{
+
+	private static final long serialVersionUID = 2544093680676066277L;
+
+	public OfertaNoEncontradaExcepcion() {
+		super("Oferta no encontrada");
+	}
+	
+	
+
+}
