@@ -1,5 +1,0 @@
-package com.alquilatucoche.usuarios.aplicacion.respuesta;
-
-public class DetallesUsuarioDTO {
-
-}

@@ -1,5 +1,0 @@
-package com.alquilatucoche.usuarios.dominio.servicio;
-
-public interface ServicioUsuario {
-
-}

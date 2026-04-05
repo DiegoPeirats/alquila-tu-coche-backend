@@ -1,5 +1,0 @@
-package com.alquilatucoche.transaccion.infraestructura.peticiones;
-
-public class PeticionCreacionTransaccion {
-
-}

@@ -1,5 +1,0 @@
-package com.alquilatucoche.email.respuesta;
-
-public enum TipoEmail {
-
-}

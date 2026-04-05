@@ -88,7 +88,7 @@ public class ImplementacionServicioVehiculo implements ServicioVehiculo{
 
 		return repositorio.findAllByIdPropietario(idPropietario).stream()
 				.map(vehiculo -> mapper.toDto(vehiculo))
-				.collect(Collectors.toList());
+				.toList();
 	}
 
 	@Override

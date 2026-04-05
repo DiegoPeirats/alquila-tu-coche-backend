@@ -1,5 +1,0 @@
-package com.alquilatucoche.vehiculos.infraestructura.peticiones;
-
-public class PeticionAltaVehiculo {
-
-}

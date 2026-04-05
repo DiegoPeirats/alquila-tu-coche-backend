@@ -1,7 +1,0 @@
-package com.alquilatucoche.pagos.aplicacion.respuesta;
-
-public class RespuestaPago {
-	
-	private String respuesta;
-
-}

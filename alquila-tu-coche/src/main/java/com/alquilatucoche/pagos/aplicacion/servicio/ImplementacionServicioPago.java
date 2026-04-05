@@ -87,7 +87,7 @@ public class ImplementacionServicioPago implements ServicioPago{
 	//falta un metodo para devolver dinero al cliente en caso necesario
 	
 	@Override
-    public String confirmarPago(String sessionId, Long transaccionId, Long precio) throws StripeException {
+    public String confirmarPago(String sessionId, Long usuarioId, Long precio) throws StripeException {
 
         // 1️⃣ Recuperar la sesión desde Stripe
         Session session = Session.retrieve(sessionId);
@@ -100,7 +100,7 @@ public class ImplementacionServicioPago implements ServicioPago{
         if (importe != precio) throw new ImporteNoAdecuadoException();
 
         PagoRecibido pago = PagoRecibido.builder()
-        		.transaccionId(transaccionId)
+        		.usuarioId(usuarioId)
         		.paymentIntentId(paymentIntentId)
         		.sessionId(sessionId)
         		.importe(importe)

@@ -1,5 +1,6 @@
-package com.alquilatucoche.pagos.dominio.entidad;
+package com.alquilatucoche.reserva.dominio.entidad;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
@@ -19,32 +20,32 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
-@Getter
-@Setter
+@Entity
+@Table(name = "reservas")
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 @Builder
-@Entity
-@Table(name = "pagos_recibidos")
-public class PagoRecibido {
-	
+public class Reserva {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
+	@Enumerated(EnumType.STRING)
+	@Column(nullable = false)
+	private EstadoReserva estadoReserva;
 	
-	private Long usuarioId;
+	private Long pagoId;
+
+	private LocalDate fechaInicio;
 	
-	private String sessionId;
-	
-	private String paymentIntentId;
-	
-	private Long importe;
+	private LocalDate fechaFin;
 	
 	@CreationTimestamp
 	private LocalDateTime fechaCreacion;
 	
 	@UpdateTimestamp
 	private LocalDateTime fechaModificacion;
-
 }
