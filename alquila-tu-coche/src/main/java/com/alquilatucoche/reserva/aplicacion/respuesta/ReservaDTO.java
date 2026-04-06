@@ -5,14 +5,19 @@ import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+import com.alquilatucoche.oferta.dominio.entidad.EstadoOferta;
 import com.alquilatucoche.pagos.dominio.entidad.PagoRecibido;
 import com.alquilatucoche.reserva.dominio.entidad.EstadoReserva;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 public class ReservaDTO {
 	

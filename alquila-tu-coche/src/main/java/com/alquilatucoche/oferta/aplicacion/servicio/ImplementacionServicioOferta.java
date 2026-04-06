@@ -67,7 +67,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 		
 		return repositorio.findAll().stream()
 				.filter(oferta -> {
-					Long idVehiculo = oferta.getIdVehiculo();
+					Long idVehiculo = oferta.getVehiculo().getId();
 					
 					VehiculoDTO vehiculo = servicioVehiculo.encontrarVehiculo(idVehiculo);
 					
@@ -129,6 +129,21 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 	public void liberarOfertas(List<Long> ids) {
 		repositorio.liberarOfertas(ids);
 		
+	}
+
+	@Override
+	public List<Long> obtenerIdOfertas(Long propietarioId) {
+		
+		List<Long> idVehiculos = servicioVehiculo.obtenerVehiculosPropietario(propietarioId)
+				.stream()
+				.map(vehiculo -> vehiculo.getId())
+				.collect(Collectors.toList());
+		
+		return idVehiculos.stream()
+		        .map(idVehiculo -> repositorio.findAllByIdVehiculo(idVehiculo)) 
+		        .flatMap(List::stream) 
+		        .map(Oferta::getId) 
+		        .toList();
 	}
 
 }

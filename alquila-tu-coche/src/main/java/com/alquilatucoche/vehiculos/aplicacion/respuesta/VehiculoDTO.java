@@ -2,6 +2,8 @@ package com.alquilatucoche.vehiculos.aplicacion.respuesta;
 
 import java.util.List;
 
+import com.alquilatucoche.oferta.dominio.entidad.Oferta;
+import com.alquilatucoche.vehiculos.dominio.entidad.ImagenVehiculo;
 import com.alquilatucoche.vehiculos.dominio.entidad.TipoVehiculo;
 
 import lombok.AllArgsConstructor;
@@ -22,6 +24,8 @@ public class VehiculoDTO {
 	private Long idPropietario;
 	
 	private String provincia;
+	
+	private List<Oferta> ofertas;
 	
 	private List<byte[]> imagenes;
 

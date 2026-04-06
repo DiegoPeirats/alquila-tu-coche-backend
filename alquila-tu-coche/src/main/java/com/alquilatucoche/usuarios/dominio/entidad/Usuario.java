@@ -1,9 +1,15 @@
 package com.alquilatucoche.usuarios.dominio.entidad;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+
+import com.alquilatucoche.reserva.dominio.entidad.Reserva;
+import com.alquilatucoche.valoracion.dominio.entidad.Valoracion;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -15,6 +21,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -25,7 +32,6 @@ import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Getter
 @Setter
 @Entity
@@ -56,6 +62,14 @@ public class Usuario {
 
     @Lob
     private byte[] imagenPerfil;
+    
+    @OneToMany(mappedBy = "usuario") 
+    @JsonManagedReference
+    private List<Valoracion> valoracionesEmitidas = new ArrayList<>();
+    
+    @OneToMany(mappedBy = "usuario") 
+    @JsonManagedReference
+    private List<Reserva> reservas = new ArrayList<>();
 
     @CreationTimestamp
     private LocalDateTime fechaCreacion;

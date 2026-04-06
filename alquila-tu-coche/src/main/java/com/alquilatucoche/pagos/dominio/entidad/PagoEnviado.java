@@ -35,8 +35,6 @@ public class PagoEnviado {
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false)
 	private TipoPago tipoPago;
-	
-	private Long transaccionId;
 
 	private String transferId;
 	

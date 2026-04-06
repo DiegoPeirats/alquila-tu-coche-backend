@@ -26,5 +26,7 @@ public interface ServicioOferta {
 	
 	void liberarOfertas(List<Long> ids);
 	
+	List<Long> obtenerIdOfertas(Long propietarioId);
+	
 
 }

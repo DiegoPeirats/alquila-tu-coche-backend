@@ -2,6 +2,7 @@ package com.alquilatucoche.usuarios.aplicacion.respuesta;
 
 import java.util.List;
 
+import com.alquilatucoche.valoracion.dominio.entidad.Valoracion;
 import com.alquilatucoche.vehiculos.aplicacion.respuesta.VehiculoDTO;
 
 import lombok.Getter;
@@ -16,4 +17,5 @@ import lombok.experimental.SuperBuilder;
 public class PropietarioDTO extends UsuarioDTO {
     private List<VehiculoDTO> vehiculos;
     private String cuenta;
+    private List<Valoracion> valoracionesRecibidas;
 }

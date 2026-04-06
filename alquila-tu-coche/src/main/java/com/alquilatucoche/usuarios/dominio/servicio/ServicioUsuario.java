@@ -3,8 +3,8 @@ package com.alquilatucoche.usuarios.dominio.servicio;
 import java.util.List;
 
 import com.alquilatucoche.usuarios.aplicacion.respuesta.LoginDTO;
-import com.alquilatucoche.usuarios.aplicacion.respuesta.PropietarioDTO;
 import com.alquilatucoche.usuarios.aplicacion.respuesta.UsuarioDTO;
+import com.alquilatucoche.usuarios.dominio.entidad.Usuario;
 import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionAltaUsuario;
 import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionLogin;
 import com.alquilatucoche.usuarios.infrastructura.peticiones.PeticionModificacionUsuario;
@@ -30,5 +30,7 @@ public interface ServicioUsuario {
 	UsuarioDTO miInformacion();
 	
 	String registrarComoPropietario(PeticionRegistroPropietario peticion) throws StripeException;
+
+	Usuario miInformacionUsuario();
 
 }

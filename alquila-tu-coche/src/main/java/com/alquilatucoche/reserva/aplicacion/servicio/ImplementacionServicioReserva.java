@@ -103,7 +103,7 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 	@Override
 	public List<Long> obtenerIdOfertasCaducadas() {
 		return repositorio.findByEstado(EstadoReserva.ACABADA).stream()
-				.map(res -> res.getOfertaId())
+				.map(res -> res.getOferta().getId())
 				.collect(Collectors.toList());
 	}
 

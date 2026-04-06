@@ -140,6 +140,16 @@ public class ImplementacionServicioUsuario implements ServicioUsuario{
 				.map(usuario -> comprobarSiPropietario(usuario))
 				.orElseThrow(UsuarioNoEncontradoExcepcion::new);
 	}
+	
+	@Override
+	public Usuario miInformacionUsuario() {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		
+		DetallesUsuarioDTO detallesUsuario = (DetallesUsuarioDTO) auth.getPrincipal();
+		
+		return repositorioUsuario.findById(detallesUsuario.getId())
+				.orElseThrow(UsuarioNoEncontradoExcepcion::new);
+	}
 
 	@Override
 	public String registrarComoPropietario(PeticionRegistroPropietario peticion) throws StripeException {

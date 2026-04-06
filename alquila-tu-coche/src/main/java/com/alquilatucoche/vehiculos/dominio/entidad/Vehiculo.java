@@ -1,19 +1,28 @@
 package com.alquilatucoche.vehiculos.dominio.entidad;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+
+import com.alquilatucoche.oferta.dominio.entidad.Oferta;
+import com.alquilatucoche.usuarios.dominio.entidad.Propietario;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -37,14 +46,21 @@ public class Vehiculo {
 	@Column(nullable = false)
 	private TipoVehiculo tipo;
 	
-	private Long idPropietario;
-	
 	private String provincia;
 	
 	private String matricula;
 	
 	@OneToMany(mappedBy = "vehiculo", cascade = CascadeType.ALL, orphanRemoval = true)
-	private List<ImagenVehiculo> imagenes;
+    @JsonManagedReference
+	private List<Oferta> ofertas = new ArrayList<>();;
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "propietario_id", nullable = false)
+	@JsonBackReference
+	private Propietario propietario;
+	
+	@OneToMany(mappedBy = "vehiculo", cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<ImagenVehiculo> imagenes = new ArrayList<>();;
 	
 	@CreationTimestamp
 	private LocalDateTime fechaCreacion;

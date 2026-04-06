@@ -4,7 +4,13 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
+import com.alquilatucoche.valoracion.dominio.entidad.Valoracion;
+import com.alquilatucoche.vehiculos.dominio.entidad.Vehiculo;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -25,6 +31,14 @@ public class Propietario {
 
     @Column(nullable = false)
     private String numeroDeCuenta;
+    
+    @OneToMany(mappedBy = "propietario") 
+    @JsonManagedReference
+    private List<Valoracion> valoracionesRecibidas = new ArrayList<>();
+    
+    @OneToMany(mappedBy = "propietario") 
+    @JsonManagedReference
+    private List<Vehiculo> vehiculos = new ArrayList<>();
 
     @Column(nullable = false)
     private byte[] imagenContrato;

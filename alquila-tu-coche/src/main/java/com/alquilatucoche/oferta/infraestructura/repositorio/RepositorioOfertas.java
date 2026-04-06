@@ -24,4 +24,6 @@ public interface RepositorioOfertas extends JpaRepository<Oferta, Long>{
 	""")
 	void liberarOfertas(@Param("ids") List<Long> ids);
 
+	List<Oferta> findAllByIdVehiculo(Long idVehiculo);
+
 }

@@ -60,7 +60,7 @@ public class ImplementacionServicioPago implements ServicioPago{
 		
 		if (servicioStripe.comprobacionCuentaValida(peticion.getPropietarioStripeId())) {
 			
-			PagoRecibido pagoRecibido = repositorioPagosRecibidos.findByTransaccionId(peticion.getTransaccionId())
+			PagoRecibido pagoRecibido = repositorioPagosRecibidos.findByPaymentIntent(peticion.getPaymentIntent())
 					.orElseThrow(() -> new PagoNoEncontradoExcepcion());
 			
 			Long precioAPagar = (long) (pagoRecibido.getImporte() / 1.1);
@@ -69,7 +69,6 @@ public class ImplementacionServicioPago implements ServicioPago{
 			
 	        PagoEnviado pagoEnviado = PagoEnviado.builder()
 	        		.tipoPago(TipoPago.ENVIADO)
-	        		.transaccionId(peticion.getTransaccionId())
 	        		.transferId(transferId)
 	        		.paymentIntentId(pagoRecibido.getPaymentIntentId())
 	        		.importe(precioAPagar) // se envia sin la comisión del 10%

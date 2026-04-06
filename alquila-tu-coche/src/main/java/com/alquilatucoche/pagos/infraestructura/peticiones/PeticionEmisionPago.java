@@ -10,7 +10,6 @@ import lombok.Setter;
 public class PeticionEmisionPago {
 	
     private String propietarioStripeId;
-    private Long transaccionId;
     private String paymentIntent;
 
 }

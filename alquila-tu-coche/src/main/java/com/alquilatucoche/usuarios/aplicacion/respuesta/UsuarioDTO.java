@@ -1,6 +1,11 @@
 package com.alquilatucoche.usuarios.aplicacion.respuesta;
 
 
+import java.util.List;
+
+import com.alquilatucoche.reserva.dominio.entidad.Reserva;
+import com.alquilatucoche.valoracion.dominio.entidad.Valoracion;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -31,6 +36,10 @@ public class UsuarioDTO {
 	private String numeroTelefono;
 
 	private byte[] imagenPerfil;
+	
+	private List<Reserva> reservas;
+	 
+	private List<Valoracion> valoraciones;
 	
 
 }
