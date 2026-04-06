@@ -91,4 +91,21 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 				.collect(Collectors.toList());
 	}
 
+	@Override
+	public ReservaDTO cambiarEstado(EstadoReserva estado, Long idReserva) {
+		Reserva res = getReserva(idReserva);
+		res.setEstadoReserva(estado);
+		repositorio.save(res);
+		
+		return mapper.toDto(res);
+	}
+
+	@Override
+	public List<Long> obtenerIdOfertasCaducadas() {
+		return repositorio.findByEstado(EstadoReserva.ACABADA).stream()
+				.map(res -> res.getOfertaId())
+				.collect(Collectors.toList());
+	}
+
+
 }

@@ -10,5 +10,7 @@ public class DatosPagoOferta {
 	private Long ofertaId;
 	
 	private Integer diasContratados;
+	
+	private Long usuarioId;
 
 }

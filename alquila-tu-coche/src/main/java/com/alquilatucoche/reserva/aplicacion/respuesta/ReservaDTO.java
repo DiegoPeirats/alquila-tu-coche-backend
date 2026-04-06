@@ -28,6 +28,8 @@ public class ReservaDTO {
 	
 	private LocalDate fechaFin;
 	
+	private Long ofertaId;
+	
 	@CreationTimestamp
 	private LocalDateTime fechaCreacion;
 

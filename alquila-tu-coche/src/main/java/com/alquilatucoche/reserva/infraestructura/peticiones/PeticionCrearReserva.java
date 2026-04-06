@@ -16,5 +16,7 @@ public class PeticionCrearReserva {
 	private LocalDate fechaInicio;
 	
 	private LocalDate fechaFin;
+	
+	private Long ofertaId;
 
 }

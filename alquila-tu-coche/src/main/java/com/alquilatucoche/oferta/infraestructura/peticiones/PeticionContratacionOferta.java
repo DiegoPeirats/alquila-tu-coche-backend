@@ -10,5 +10,7 @@ public class PeticionContratacionOferta {
 	private String sessionId;
 	
 	private DatosPagoOferta datos;
+	
+	private Long reservaId;
 
 }

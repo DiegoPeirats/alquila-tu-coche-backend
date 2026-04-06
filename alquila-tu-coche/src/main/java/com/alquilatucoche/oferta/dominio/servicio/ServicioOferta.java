@@ -3,6 +3,7 @@ package com.alquilatucoche.oferta.dominio.servicio;
 import java.util.List;
 
 import com.alquilatucoche.oferta.aplicacion.respuesta.OfertaDTO;
+import com.alquilatucoche.oferta.dominio.entidad.Oferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.FiltroBusquedaOfertas;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionCreacionOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionModificarOferta;

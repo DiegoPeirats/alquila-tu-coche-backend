@@ -89,10 +89,10 @@ public class ImplementacionServicioPago implements ServicioPago{
 	@Override
     public String confirmarPago(String sessionId, Long usuarioId, Long precio) throws StripeException {
 
-        // 1️⃣ Recuperar la sesión desde Stripe
+        // Recuperar la sesión desde Stripe
         Session session = Session.retrieve(sessionId);
 
-        // 2️⃣ Obtener el payment_intent generado por Stripe
+        // Obtener el payment_intent generado por Stripe
         String paymentIntentId = session.getPaymentIntent();
 
         Long importe = session.getAmountTotal();

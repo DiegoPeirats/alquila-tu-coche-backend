@@ -14,10 +14,10 @@ import com.alquilatucoche.oferta.dominio.servicio.ServicioOferta;
 import com.alquilatucoche.oferta.infraestructura.peticiones.PeticionContratacionOferta;
 import com.alquilatucoche.pagos.dominio.servicio.ServicioPago;
 import com.alquilatucoche.pagos.infraestructura.peticiones.PeticionEmisionPago;
-import com.alquilatucoche.transaccion.aplicacion.respuesta.TransaccionDTO;
-import com.alquilatucoche.transaccion.dominio.servicio.ServicioTransaccion;
+import com.alquilatucoche.reserva.aplicacion.respuesta.ReservaDTO;
+import com.alquilatucoche.reserva.dominio.entidad.EstadoReserva;
+import com.alquilatucoche.reserva.dominio.servicio.ServicioReserva;
 import lombok.RequiredArgsConstructor;
-import com.alquilatucoche.transaccion.infraestructura.peticiones.PeticionCreacionTransaccion;
 import com.alquilatucoche.usuarios.dominio.servicio.ServicioUsuario;
 import com.alquilatucoche.vehiculos.dominio.servicio.ServicioVehiculo;
 import com.stripe.exception.StripeException;
@@ -31,7 +31,7 @@ public class ImplementacionServicioContratacion implements ServicioContratacion{
 	
 	private final ServicioOferta servicioOferta;
 	
-	private final ServicioTransaccion servicioTransaccion;
+	private final ServicioReserva servicioReserva;
 	
 	private final ServicioPago servicioPago;
 	
@@ -50,21 +50,14 @@ public class ImplementacionServicioContratacion implements ServicioContratacion{
 		// cambiar el estado de la oferta a contratada
 		servicioOferta.establecerOfertaContratada(peticion.getDatos().getOfertaId());
 		
-		//crear la transaccion
-		PeticionCreacionTransaccion peticionTransaccion = PeticionCreacionTransaccion.builder()
-				.precio(precio)
-				.idOferta(peticion.getDatos().getOfertaId())
-				.idUsuario(servicioUsuario.miInformacion().getId())
-				.build();
-		
-		TransaccionDTO transaccion = servicioTransaccion.crearTransaccion(peticionTransaccion);
+		//cambiar el estado de la reserva
+		servicioReserva.cambiarEstado(EstadoReserva.EJECUTANDO, peticion.getReservaId());
 		
 		//comprobar el pago	
-		servicioPago.confirmarPago(peticion.getSessionId(), transaccion.getId(), Math.round(precio));
+		servicioPago.confirmarPago(peticion.getSessionId(), peticion.getDatos().getUsuarioId() , Math.round(precio));
 		
 		return ResultadoContratacion.builder()
 				.oferta(servicioOferta.obtenerOferta(peticion.getDatos().getOfertaId()))
-				.transaccion(transaccion)
 				.resultado("Exito")
 				.build();
 	}
@@ -76,20 +69,21 @@ public class ImplementacionServicioContratacion implements ServicioContratacion{
 		
 		Long idCliente = servicioUsuario.miInformacion().getId();
 		
-		TransaccionDTO transaccion = servicioTransaccion.obtenerUltimaTransaccionDelCliente(idCliente);
+		List<ReservaDTO> reservas = servicioReserva.obtenerReservas(idCliente);
+
+		ReservaDTO reserva = reservas.get(reservas.size() - 1);
 		
-		Long idOferta = servicioTransaccion.obtenerUltimaTransaccionDelCliente(idCliente).getIdOferta();
+		Long idOferta = reserva.getOfertaId();
 		
 		Long idVehiculo = servicioOferta.obtenerOferta(idOferta).getIdVehiculo();
 		
 		Long idPropietario = servicioVehiculo.encontrarVehiculo(idVehiculo).getIdPropietario();
 		
 		servicioPago.enviarPago(PeticionEmisionPago.builder()
-			.transaccionId(transaccion.getId())
 			.propietarioStripeId(servicioUsuario.cuentaStripePropietario(idPropietario))
 			.build());
 		
-		LocalDate fechaFinAlquiler = LocalDate.now().plusDays(transaccion.getDiasContratados());
+		LocalDate fechaFinAlquiler = reserva.getFechaFin();
 
 		//enviar alerta al cliente
 		servicioEmail.enviarCorreo(servicioUsuario.miInformacion().getEmail(), 
@@ -108,8 +102,8 @@ public class ImplementacionServicioContratacion implements ServicioContratacion{
 	@Transactional
 	@Scheduled(fixedRate = 24 * 60 * 60 * 1000)
 	public void terminarContrato() {
-		
-		List<Long> idsOfertas = servicioTransaccion.obtenerIdOfertasCaducadas();
+	
+		List<Long> idsOfertas = servicioReserva.obtenerIdOfertasCaducadas();
 		
 		servicioOferta.liberarOfertas(idsOfertas);
 	}

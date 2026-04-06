@@ -38,6 +38,8 @@ public class Reserva {
 	private EstadoReserva estadoReserva;
 	
 	private Long pagoId;
+	
+	private Long ofertaId;
 
 	private LocalDate fechaInicio;
 	
