@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -32,31 +33,31 @@ public class ControladorOfertas {
 	private final ServicioContratacion servicioContratacion;
 	
 	@PostMapping("/crearOferta")
-	public ResponseEntity<OfertaDTO> crearOferta(PeticionCreacionOferta peticion){
+	public ResponseEntity<OfertaDTO> crearOferta(@RequestBody PeticionCreacionOferta peticion){
 		return ResponseEntity.status(HttpStatus.CREATED).body(servicioOferta.crearOferta(peticion));
 	}
 	
 	
 	@PutMapping("/modificarOferta")
-	public ResponseEntity<OfertaDTO> modificarOferta(PeticionModificarOferta peticion){
+	public ResponseEntity<OfertaDTO> modificarOferta(@RequestBody PeticionModificarOferta peticion){
 		return ResponseEntity.status(HttpStatus.OK).body(servicioOferta.modificarOferta(peticion));
 	}
 
 	
 	@DeleteMapping("/eliminarOferta")
-	public ResponseEntity<String> eliminarOferta(Long id){
+	public ResponseEntity<String> eliminarOferta(@RequestBody Long id){
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(servicioOferta.eliminarOferta(id));
 	}
 
 	
 	@PostMapping("/obtenerOfertas")
-	public ResponseEntity<List<OfertaDTO>> obtenerOfertas(FiltroBusquedaOfertas filtro){
+	public ResponseEntity<List<OfertaDTO>> obtenerOfertas(@RequestBody FiltroBusquedaOfertas filtro){
 		return ResponseEntity.status(HttpStatus.CREATED).body(servicioOferta.obtenerOfertas(filtro));
 	}
 
 	
 	@PostMapping("/contratarOferta")
-	public ResponseEntity<ResultadoContratacion> contratarOferta(PeticionContratacionOferta peticion) throws StripeException{
+	public ResponseEntity<ResultadoContratacion> contratarOferta(@RequestBody PeticionContratacionOferta peticion) throws StripeException{
 		return ResponseEntity.status(HttpStatus.OK).body(servicioContratacion.contratarOferta(peticion));
 	}
 	

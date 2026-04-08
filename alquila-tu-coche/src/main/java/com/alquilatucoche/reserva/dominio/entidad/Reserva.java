@@ -45,6 +45,7 @@ public class Reserva {
 	@Column(nullable = false)
 	private EstadoReserva estado;
 	
+	@Column(nullable = false)
 	private Long pagoId;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
@@ -57,8 +58,10 @@ public class Reserva {
 	@JsonBackReference
 	private Oferta oferta;
 
+	@Column(nullable = false)
 	private LocalDate fechaInicio;
-	
+
+	@Column(nullable = false)
 	private LocalDate fechaFin;
 	
 	@CreationTimestamp

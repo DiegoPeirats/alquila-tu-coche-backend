@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -29,13 +30,17 @@ public class PagoRecibido {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
+	@Column(nullable = false)
 	private Long usuarioId;
-	
+
+	@Column(nullable = false)
 	private String sessionId;
-	
+
+	@Column(nullable = false)
 	private String paymentIntentId;
-	
+
+	@Column(nullable = false)
 	private Long importe;
 	
 	@CreationTimestamp

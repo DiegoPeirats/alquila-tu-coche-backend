@@ -17,6 +17,7 @@ import com.alquilatucoche.valoracion.infraestructura.peticiones.PeticionModifica
 import com.alquilatucoche.valoracion.infraestructura.repositorio.RepositorioValoracion;
 
 import lombok.RequiredArgsConstructor;
+import lombok.val;
 
 @Service
 @RequiredArgsConstructor
@@ -39,7 +40,7 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 		
 		repositorio.save(valoracion);
 		
-		return mapper.toDto(valoracion);
+		return mapearValoracion(valoracion);
 	}
 
 	@Override
@@ -51,7 +52,7 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 		
 		repositorio.save(valoracion);
 		
-		return mapper.toDto(valoracion);
+		return mapearValoracion(valoracion);
 	}
 
 	private Valoracion encontrarValoracion(Long id) {
@@ -78,7 +79,7 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 		return ofertasDelPropietario.stream()
 		        .map(idOferta -> repositorio.findAllByOferta_Id(idOferta)) 
 		        .flatMap(List::stream) 
-		        .map(mapper::toDto) 
+		        .map(val -> mapearValoracion(val)) 
 		        .toList();
 	}
 
@@ -86,7 +87,7 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 	public List<ValoracionDTO> obtenerValoracionesEmitidas(Long usuarioId) {
 		
 		return repositorio.findAllByUsuario_Id(usuarioId).stream()
-				.map(val -> mapper.toDto(val))
+				.map(val -> mapearValoracion(val))
 				.collect(Collectors.toList());
 	}
 
@@ -94,6 +95,14 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 	public ValoracionDTO obtenerValoracion(Long id) {
 		Valoracion valoracion = encontrarValoracion(id);
 		return mapper.toDto(valoracion);
+	}
+	
+	private ValoracionDTO mapearValoracion(Valoracion valoracion) {
+		ValoracionDTO dto = mapper.toDto(valoracion);
+		dto.setOfertaId(valoracion.getOferta().getId());
+		dto.setUsuarioId(valoracion.getUsuario().getId());
+		
+		return dto;
 	}
 
 }

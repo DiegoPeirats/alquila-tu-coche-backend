@@ -39,7 +39,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 		
 		repositorio.save(oferta);
 		
-		return mapper.toDto(oferta);
+		return mapearOferta(oferta);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 		
 		repositorio.save(oferta);
 		
-		return mapper.toDto(oferta);
+		return mapearOferta(oferta);
 	}
 
 	@Override
@@ -89,7 +89,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 					
 					return tipoCorrecto && provinciaCorrecta && precioMaximoCorrecto && precioMinimoCorrecto;
 				})
-				.map(oferta -> mapper.toDto(oferta))
+				.map(oferta -> mapearOferta(oferta))
 				.collect(Collectors.toList());
 	}
 	
@@ -97,7 +97,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 	public OfertaDTO obtenerOferta(Long id) {
 		
 		return repositorio.findById(id)
-				.map(oferta -> mapper.toDto(oferta))
+				.map(oferta -> mapearOferta(oferta))
 				.orElseThrow(() -> new OfertaNoEncontradaExcepcion());
 	}
 
@@ -144,6 +144,12 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 		        .flatMap(List::stream) 
 		        .map(Oferta::getId) 
 		        .toList();
+	}
+	
+	private OfertaDTO mapearOferta(Oferta oferta) {
+		OfertaDTO dto = mapper.toDto(oferta);
+		dto.setIdVehiculo(oferta.getVehiculo().getId());
+		return dto;
 	}
 
 }

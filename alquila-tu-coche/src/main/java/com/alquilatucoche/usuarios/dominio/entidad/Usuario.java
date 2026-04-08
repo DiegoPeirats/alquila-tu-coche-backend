@@ -42,10 +42,14 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+	@Column(nullable = false)
     private String nombre;
+	@Column(nullable = false)
     private String apellidos;
     private String genero;
+	@Column(nullable = false)
     private String direccion;
+	@Column(nullable = false)
     private String provincia;
 
     @Column(nullable = false, unique = true)

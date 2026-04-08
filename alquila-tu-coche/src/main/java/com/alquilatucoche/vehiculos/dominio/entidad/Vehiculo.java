@@ -46,8 +46,10 @@ public class Vehiculo {
 	@Column(nullable = false)
 	private TipoVehiculo tipo;
 	
+	@Column(nullable = false)
 	private String provincia;
 	
+	@Column(nullable = false)
 	private String matricula;
 	
 	@OneToMany(mappedBy = "vehiculo", cascade = CascadeType.ALL, orphanRemoval = true)

@@ -87,7 +87,7 @@ public class ImplementacionServicioVehiculo implements ServicioVehiculo{
 	public List<VehiculoDTO> obtenerVehiculosPropietario(Long idPropietario) {
 
 		return repositorio.findAllByPropietario_Id(idPropietario).stream()
-				.map(vehiculo -> mapper.toDto(vehiculo))
+				.map(vehiculo -> mapearVehiculo(vehiculo))
 				.toList();
 	}
 
@@ -95,7 +95,14 @@ public class ImplementacionServicioVehiculo implements ServicioVehiculo{
 	public VehiculoDTO encontrarVehiculo(Long id) {
 		Vehiculo vehiculo = repositorio.findById(id)
 				.orElseThrow(() -> new VehiculoNoEncontradoExcepcion());
-		return mapper.toDto(vehiculo);
+		return mapearVehiculo(vehiculo);
+	}
+	
+	private VehiculoDTO mapearVehiculo(Vehiculo vehiculo) {
+		VehiculoDTO dto = mapper.toDto(vehiculo);
+		
+		dto.setPropietarioId(vehiculo.getPropietario().getId());
+		return dto;
 	}
 
 }

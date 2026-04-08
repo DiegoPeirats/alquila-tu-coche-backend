@@ -77,7 +77,7 @@ public class ImplementacionServicioContratacion implements ServicioContratacion{
 		
 		Long idVehiculo = servicioOferta.obtenerOferta(idOferta).getIdVehiculo();
 		
-		Long idPropietario = servicioVehiculo.encontrarVehiculo(idVehiculo).getIdPropietario();
+		Long idPropietario = servicioVehiculo.encontrarVehiculo(idVehiculo).getPropietarioId();
 		
 		servicioPago.enviarPago(PeticionEmisionPago.builder()
 			.propietarioStripeId(servicioUsuario.cuentaStripePropietario(idPropietario))

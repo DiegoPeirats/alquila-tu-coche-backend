@@ -36,10 +36,13 @@ public class PagoEnviado {
 	@Column(nullable = false)
 	private TipoPago tipoPago;
 
+	@Column(nullable = false)
 	private String transferId;
-	
+
+	@Column(nullable = false)
 	private String paymentIntentId;
-	
+
+	@Column(nullable = false)
 	private Long importe;
 	
 	@CreationTimestamp

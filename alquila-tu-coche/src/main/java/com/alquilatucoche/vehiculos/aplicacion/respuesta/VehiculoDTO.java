@@ -21,7 +21,7 @@ public class VehiculoDTO {
 	
 	private TipoVehiculo tipo;
 	
-	private Long idPropietario;
+	private Long propietarioId;
 	
 	private String provincia;
 	

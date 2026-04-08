@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
+import com.alquilatucoche.pagos.aplicacion.respuesta.PagoNoEncontradoExcepcion;
 import com.alquilatucoche.pagos.aplicacion.servicio.ImplementacionServicioPago;
 import com.alquilatucoche.pagos.dominio.entidad.PagoRecibido;
 import com.alquilatucoche.pagos.infraestructura.repositorio.RepositorioPagosRecibidos;
@@ -39,7 +40,7 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 		
 		repositorio.save(reserva);
 		
-		return mapper.toDto(reserva);
+		return mapearReserva(reserva);
 	}
 
 	@Override
@@ -57,7 +58,7 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 		
 		repositorio.save(reserva);
 		
-		return mapper.toDto(reserva);
+		return mapearReserva(reserva);
 	}
 
 	@Override
@@ -85,9 +86,9 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 					
 					Long userId = pago.getUsuarioId();
 					
-					return userId.equals(usuarioId);
+					return userId == usuarioId;
 				})
-				.map(res -> mapper.toDto(res))
+				.map(res -> mapearReserva(res))
 				.collect(Collectors.toList());
 	}
 
@@ -97,7 +98,7 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 		res.setEstado(estado);
 		repositorio.save(res);
 		
-		return mapper.toDto(res);
+		return mapearReserva(res);
 	}
 
 	@Override
@@ -105,6 +106,13 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 		return repositorio.findByEstado(EstadoReserva.ACABADA).stream()
 				.map(res -> res.getOferta().getId())
 				.collect(Collectors.toList());
+	}
+	
+	private ReservaDTO mapearReserva(Reserva reserva) {
+		ReservaDTO dto = mapper.toDto(reserva);
+		dto.setOfertaId(reserva.getOferta().getId());
+		dto.setPago(repoPago.findById(reserva.getPagoId()).orElseThrow(()-> new PagoNoEncontradoExcepcion()));
+		return dto;
 	}
 
 
