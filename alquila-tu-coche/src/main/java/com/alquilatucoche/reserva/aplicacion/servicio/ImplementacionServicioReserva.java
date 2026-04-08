@@ -35,7 +35,7 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 		
 		Reserva reserva = mapper.crearReservaDesdePeticion(peticion);
 		
-		reserva.setEstadoReserva(EstadoReserva.PENDIENTE);
+		reserva.setEstado(EstadoReserva.PENDIENTE);
 		
 		repositorio.save(reserva);
 		
@@ -94,7 +94,7 @@ public class ImplementacionServicioReserva implements ServicioReserva{
 	@Override
 	public ReservaDTO cambiarEstado(EstadoReserva estado, Long idReserva) {
 		Reserva res = getReserva(idReserva);
-		res.setEstadoReserva(estado);
+		res.setEstado(estado);
 		repositorio.save(res);
 		
 		return mapper.toDto(res);

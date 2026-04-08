@@ -76,7 +76,7 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 		List<Long> ofertasDelPropietario = servicioOferta.obtenerIdOfertas(propietarioId);
 		
 		return ofertasDelPropietario.stream()
-		        .map(idOferta -> repositorio.findAllByIdOferta(idOferta)) 
+		        .map(idOferta -> repositorio.findAllByOferta_Id(idOferta)) 
 		        .flatMap(List::stream) 
 		        .map(mapper::toDto) 
 		        .toList();
@@ -85,7 +85,7 @@ public class ImplementacionServicioValoracion implements ServicioValoracion{
 	@Override
 	public List<ValoracionDTO> obtenerValoracionesEmitidas(Long usuarioId) {
 		
-		return repositorio.findAllByIdCliente(usuarioId).stream()
+		return repositorio.findAllByUsuario_Id(usuarioId).stream()
 				.map(val -> mapper.toDto(val))
 				.collect(Collectors.toList());
 	}

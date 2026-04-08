@@ -10,5 +10,5 @@ import com.alquilatucoche.pagos.dominio.entidad.PagoRecibido;
 public interface RepositorioPagosRecibidos extends JpaRepository<PagoRecibido, Long>{
 	
 
-	Optional<PagoRecibido> findByPaymentIntent(String paymentIntent);
+	Optional<PagoRecibido> findByPaymentIntentId(String paymentIntent);
 }

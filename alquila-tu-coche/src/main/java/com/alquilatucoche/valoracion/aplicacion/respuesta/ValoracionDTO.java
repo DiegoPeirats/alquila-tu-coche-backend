@@ -13,9 +13,9 @@ public class ValoracionDTO {
 	
 	private Long id;
 	
-	private Long idCliente;
+	private Long usuarioId;
 	
-	private Long idOferta;
+	private Long ofertaId;
 	
 	private String mensaje;
 	

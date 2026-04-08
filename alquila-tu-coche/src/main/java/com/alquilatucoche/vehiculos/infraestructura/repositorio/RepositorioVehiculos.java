@@ -8,6 +8,6 @@ import com.alquilatucoche.vehiculos.dominio.entidad.Vehiculo;
 
 public interface RepositorioVehiculos extends JpaRepository<Vehiculo, Long>{
 	
-	List<Vehiculo> findAllByIdPropietario(Long idPropietario);
+	List<Vehiculo> findAllByPropietario_Id(Long idPropietario);
 
 }

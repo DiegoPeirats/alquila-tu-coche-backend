@@ -10,7 +10,7 @@ import com.alquilatucoche.valoracion.dominio.entidad.Valoracion;
 @Repository
 public interface RepositorioValoracion extends JpaRepository<Valoracion, Long>{
 	
-	List<Valoracion> findAllByIdCliente(Long idCliente);
+	List<Valoracion> findAllByUsuario_Id(Long idCliente);
 
-	List<Valoracion> findAllByIdOferta(Long idOferta);
+	List<Valoracion> findAllByOferta_Id(Long idOferta);
 }

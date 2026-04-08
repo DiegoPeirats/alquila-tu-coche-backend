@@ -43,7 +43,7 @@ public class Reserva {
 
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false)
-	private EstadoReserva estadoReserva;
+	private EstadoReserva estado;
 	
 	private Long pagoId;
 	

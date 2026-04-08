@@ -140,7 +140,7 @@ public class ImplementacionServicioOferta implements ServicioOferta{
 				.collect(Collectors.toList());
 		
 		return idVehiculos.stream()
-		        .map(idVehiculo -> repositorio.findAllByIdVehiculo(idVehiculo)) 
+		        .map(idVehiculo -> repositorio.findAllByVehiculo_Id(idVehiculo)) 
 		        .flatMap(List::stream) 
 		        .map(Oferta::getId) 
 		        .toList();

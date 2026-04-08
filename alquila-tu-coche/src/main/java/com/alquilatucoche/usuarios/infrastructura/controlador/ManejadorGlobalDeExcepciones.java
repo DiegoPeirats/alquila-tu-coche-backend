@@ -32,7 +32,7 @@ public class ManejadorGlobalDeExcepciones {
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
 	}
 	
-	@ExceptionHandler(VehiculoNoEncontradoExcepcion.class)
+	@ExceptionHandler(OfertaNoEncontradaExcepcion.class)
 	public ResponseEntity<String> ofertaNotFound(OfertaNoEncontradaExcepcion ex){
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
 	}

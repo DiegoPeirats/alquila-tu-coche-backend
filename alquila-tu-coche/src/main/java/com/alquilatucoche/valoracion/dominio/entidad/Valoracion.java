@@ -19,6 +19,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -37,7 +39,7 @@ public class Valoracion {
 	private Long id;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "oferta_id", nullable = false)
+	@JoinColumn(name = "usuario_id", nullable = false)
 	@JsonBackReference
 	private Usuario usuario;
 	
@@ -53,7 +55,9 @@ public class Valoracion {
 	
 	private String mensaje;
 	
-	@Column(nullable = false, columnDefinition = "INTEGER CHECK (valoracion >= 1 AND valoracion <= 5)")
+	@Column(nullable = false)
+	@Min(1)
+	@Max(5)
 	private Integer valoracion;
 	
 	@CreationTimestamp

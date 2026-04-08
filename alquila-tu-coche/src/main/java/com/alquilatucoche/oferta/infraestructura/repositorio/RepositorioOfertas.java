@@ -17,13 +17,13 @@ public interface RepositorioOfertas extends JpaRepository<Oferta, Long>{
 	
 	@Modifying
 	@Query("""
-	  update Oferta o
-	  set o.estado = 'DISPONIBLE'
-	  where o.id in :ids
-		and o.estado = 'CONTRATADA'
+	    update Oferta o 
+	    set o.estado = com.alquilatucoche.oferta.dominio.entidad.EstadoOferta.DISPONIBLE
+	    where o.id in :ids 
+	    and o.estado = com.alquilatucoche.oferta.dominio.entidad.EstadoOferta.CONTRATADA
 	""")
 	void liberarOfertas(@Param("ids") List<Long> ids);
 
-	List<Oferta> findAllByIdVehiculo(Long idVehiculo);
+	List<Oferta> findAllByVehiculo_Id(Long idVehiculo);
 
 }

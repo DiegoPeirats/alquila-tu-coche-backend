@@ -48,7 +48,7 @@ public class Oferta {
 	@JsonBackReference
 	private Vehiculo vehiculo;
 	
-	@OneToMany(mappedBy = "vehiculo", cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToMany(mappedBy = "oferta", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
 	private List<Reserva> reservas = new ArrayList<>();;
 	

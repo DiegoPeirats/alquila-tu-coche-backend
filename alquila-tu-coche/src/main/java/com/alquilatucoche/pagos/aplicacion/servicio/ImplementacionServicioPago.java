@@ -60,7 +60,7 @@ public class ImplementacionServicioPago implements ServicioPago{
 		
 		if (servicioStripe.comprobacionCuentaValida(peticion.getPropietarioStripeId())) {
 			
-			PagoRecibido pagoRecibido = repositorioPagosRecibidos.findByPaymentIntent(peticion.getPaymentIntent())
+			PagoRecibido pagoRecibido = repositorioPagosRecibidos.findByPaymentIntentId(peticion.getPaymentIntent())
 					.orElseThrow(() -> new PagoNoEncontradoExcepcion());
 			
 			Long precioAPagar = (long) (pagoRecibido.getImporte() / 1.1);

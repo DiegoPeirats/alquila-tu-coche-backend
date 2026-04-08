@@ -86,7 +86,7 @@ public class ImplementacionServicioVehiculo implements ServicioVehiculo{
 	@Override
 	public List<VehiculoDTO> obtenerVehiculosPropietario(Long idPropietario) {
 
-		return repositorio.findAllByIdPropietario(idPropietario).stream()
+		return repositorio.findAllByPropietario_Id(idPropietario).stream()
 				.map(vehiculo -> mapper.toDto(vehiculo))
 				.toList();
 	}

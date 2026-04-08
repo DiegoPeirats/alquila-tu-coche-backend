@@ -25,7 +25,7 @@ public class ReservaDTO {
 
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false)
-	private EstadoReserva estadoReserva;
+	private EstadoReserva estado;
 	
 	private PagoRecibido pago;
 
